@@ -323,40 +323,34 @@ export const Member = styled(MemberUnstyled)`
   flex-direction: column;
   align-items: center;
 
-  gap: 8px;
   text-align: center;
 
-  width: -webkit-fill-available;
-  max-width: 100px;
+  height: 225px;
+  width: 180px;
 
   margin: 0 auto;
-
-  @media ${props => props.theme.breakpoints.tablet} {
-    max-width: 120px;
-  }
-
-  @media ${props => props.theme.breakpoints.laptop} {
-    max-width: 150px;
-  }
 
   & > .image-wrapper {
     border-radius: 50%;
     overflow: hidden;
-    width: 100%;
+    height: 150px !important;
+    width: 150px !important;
+    margin-bottom: 8px;
 
     & > span {
       position: unset !important;
 
       & > img {
         position: unset !important;
-        width: 100% !important;
-        height: 100% !important;
+        width: 150px !important;
+        height: 150px !important;
       }
     }
   }
 
   & h6 {
     font-size: 1rem;
+    white-space: nowrap;
     font-family: Gilroy-Light;
 
     @media ${props => props.theme.breakpoints.laptop} {
@@ -389,9 +383,5 @@ export const MemberWrapper = styled.div`
 
   @media ${props => props.theme.breakpoints.laptop} {
     grid-template-columns: repeat(5, 1fr);
-  }
-
-  @media ${props => props.theme.breakpoints.laptopL} {
-    grid-template-columns: repeat(6, 1fr);
   }
 `
