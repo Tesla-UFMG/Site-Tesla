@@ -139,15 +139,6 @@ export const SectionContent = styled.div`
   margin: auto;
 
   padding-top: 40px;
-
-  @media ${props => props.theme.breakpoints.tablet} {
-    max-width: 70%;
-    padding-top: 80px;
-  }
-
-  @media ${props => props.theme.breakpoints.laptop} {
-    max-width: 60%;
-  }
 `
 
 const CapitainUnstyled = ({

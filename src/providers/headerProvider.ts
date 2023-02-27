@@ -25,8 +25,8 @@ export const headerOptionsProvider: Array<{
       { label: '2020', to: '/equipe/2020' },
       { label: '2021', to: '/equipe/2021' },
       { label: '2022', to: '/equipe/2022' },
-      { label: '2023', to: '/equipe/2023' },
-  ]
+      { label: '2023', to: '/equipe/2023' }
+    ]
   },
   { label: 'Parceiros', to: '/parceiros' }
 ]
@@ -39,6 +39,6 @@ export const siderbarOptionsProvider = [
   { label: 'Blog', to: '/blog' },
   { label: 'A competição', to: '/competicao' },
   { label: 'Galeria', to: '/galeria' },
-  { label: 'Rollouts', to: '/rollouts' },
-  { label: 'Loja', to: '/loja' }
+  { label: 'Rollouts', to: '/rollouts' }
+  //  { label: 'Loja', to: '/loja' }
 ]
