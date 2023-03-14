@@ -16,73 +16,6 @@ export const equipeProvider: {
     }[]
   }
 } = {
-  2019: {
-    captain: {
-      name: 'Nome Capitão',
-      imagePath: '',
-      linkedin: 'https://www.linkedin.com/'
-    },
-    members: [
-      {
-        setor: 'ADMINISTRAÇÃO',
-        members: [
-          {
-            name: 'Matheus',
-            role: 'Vice-Capitão',
-            imagePath: '',
-            linkedin: 'https://www.linkedin.com/'
-          },
-          {
-            name: 'Matheus Teste Teste',
-            role: 'Vice-Capitão',
-            imagePath: '',
-            linkedin: 'https://www.linkedin.com/'
-          },
-          {
-            name: 'Matheus',
-            role: 'Vice-Capitão',
-            imagePath: '',
-            linkedin: 'https://www.linkedin.com/'
-          },
-          {
-            name: 'Matheus Teste',
-            role: 'Vice-Capitão',
-            imagePath: '',
-            linkedin: 'https://www.linkedin.com/'
-          },
-          {
-            name: 'Matheus',
-            role: 'Vice-Capitão',
-            imagePath: '',
-            linkedin: 'https://www.linkedin.com/'
-          },
-          {
-            name: 'Matheus',
-            role: 'Vice-Capitão',
-            imagePath: '',
-            linkedin: 'https://www.linkedin.com/'
-          }
-        ]
-      },
-      {
-        setor: 'ELETRÔNICA',
-        members: [
-          {
-            name: 'Matheus',
-            role: 'Vice-Capitão',
-            imagePath: '',
-            linkedin: 'https://www.linkedin.com/'
-          },
-          {
-            name: 'Matheus',
-            role: 'Vice-Capitão',
-            imagePath: '',
-            linkedin: 'https://www.linkedin.com/'
-          }
-        ]
-      }
-    ]
-  },
   2021: {
     captain: {
       name: 'Eduardo Fujii',
@@ -134,7 +67,8 @@ export const equipeProvider: {
             role: 'Vice-Capitão',
             imagePath: '',
             linkedin: 'https://www.linkedin.com/'
-          },{
+          },
+          {
             name: 'Lyandra Souto',
             role: 'Vice-Capitão',
             imagePath: '',
@@ -187,7 +121,7 @@ export const equipeProvider: {
             role: 'Vice-Capitão',
             imagePath: '',
             linkedin: 'https://www.linkedin.com/'
-          },
+          }
         ]
       },
       {
@@ -252,7 +186,8 @@ export const equipeProvider: {
             role: 'Vice-Capitão',
             imagePath: '',
             linkedin: 'https://www.linkedin.com/'
-          },{
+          },
+          {
             name: 'Lucas Emídio',
             role: 'Direto Geral',
             imagePath: '',
@@ -263,7 +198,8 @@ export const equipeProvider: {
             role: 'Vice-Capitão',
             imagePath: '',
             linkedin: 'https://www.linkedin.com/'
-          },{
+          },
+          {
             name: 'Gabriel Almeida',
             role: 'Direto Geral',
             imagePath: '',
@@ -274,7 +210,8 @@ export const equipeProvider: {
             role: 'Vice-Capitão',
             imagePath: '',
             linkedin: 'https://www.linkedin.com/'
-          },{
+          },
+          {
             name: 'Tiago Morais',
             role: 'Direto Geral',
             imagePath: '',
@@ -285,7 +222,8 @@ export const equipeProvider: {
             role: 'Vice-Capitão',
             imagePath: '',
             linkedin: 'https://www.linkedin.com/'
-          },{
+          },
+          {
             name: 'Alan Franklin',
             role: 'Direto Geral',
             imagePath: '',
@@ -296,7 +234,8 @@ export const equipeProvider: {
             role: 'Vice-Capitão',
             imagePath: '',
             linkedin: 'https://www.linkedin.com/'
-          },{
+          },
+          {
             name: 'Arthur Vaz',
             role: 'Direto Geral',
             imagePath: '',
@@ -307,7 +246,8 @@ export const equipeProvider: {
             role: 'Vice-Capitão',
             imagePath: '',
             linkedin: 'https://www.linkedin.com/'
-          },{
+          },
+          {
             name: 'Gláucia Figueiredo',
             role: 'Direto Geral',
             imagePath: '',
@@ -318,7 +258,8 @@ export const equipeProvider: {
             role: 'Vice-Capitão',
             imagePath: '',
             linkedin: 'https://www.linkedin.com/'
-          },{
+          },
+          {
             name: 'João Pedro Nunes',
             role: 'Direto Geral',
             imagePath: '',
@@ -329,7 +270,8 @@ export const equipeProvider: {
             role: 'Vice-Capitão',
             imagePath: '',
             linkedin: 'https://www.linkedin.com/'
-          },{
+          },
+          {
             name: 'Samuel Faria',
             role: 'Direto Geral',
             imagePath: '',
@@ -340,13 +282,13 @@ export const equipeProvider: {
             role: 'Vice-Capitão',
             imagePath: '',
             linkedin: 'https://www.linkedin.com/'
-          },{
+          },
+          {
             name: 'Victória Machado',
             role: 'Direto Geral',
             imagePath: '',
             linkedin: 'https://www.linkedin.com/'
           }
-
         ]
       },
       {
@@ -363,7 +305,8 @@ export const equipeProvider: {
             role: 'Vice-Capitão',
             imagePath: '',
             linkedin: 'https://www.linkedin.com/'
-          },{
+          },
+          {
             name: 'Luísa Vilela',
             role: 'Direto Geral',
             imagePath: '',
@@ -374,7 +317,8 @@ export const equipeProvider: {
             role: 'Vice-Capitão',
             imagePath: '',
             linkedin: 'https://www.linkedin.com/'
-          },{
+          },
+          {
             name: 'Lucas Telles',
             role: 'Direto Geral',
             imagePath: '',
@@ -385,7 +329,8 @@ export const equipeProvider: {
             role: 'Vice-Capitão',
             imagePath: '',
             linkedin: 'https://www.linkedin.com/'
-          },{
+          },
+          {
             name: 'Ana Beatriz Strube',
             role: 'Direto Geral',
             imagePath: '',
@@ -396,7 +341,8 @@ export const equipeProvider: {
             role: 'Vice-Capitão',
             imagePath: '',
             linkedin: 'https://www.linkedin.com/'
-          },{
+          },
+          {
             name: 'João Roque',
             role: 'Direto Geral',
             imagePath: '',
@@ -407,7 +353,8 @@ export const equipeProvider: {
             role: 'Vice-Capitão',
             imagePath: '',
             linkedin: 'https://www.linkedin.com/'
-          },{
+          },
+          {
             name: 'Ana Luiza Pereira',
             role: 'Direto Geral',
             imagePath: '',
@@ -480,7 +427,8 @@ export const equipeProvider: {
             role: 'Diretor Geral',
             imagePath: '',
             linkedin: 'https://www.linkedin.com/'
-          },{
+          },
+          {
             name: 'Matheo Mares',
             role: 'Recursos',
             imagePath: '',
@@ -503,12 +451,13 @@ export const equipeProvider: {
             role: 'Design',
             imagePath: '',
             linkedin: 'https://www.linkedin.com/'
-          },{
+          },
+          {
             name: 'Roger Lafetá',
             role: 'Design',
             imagePath: '',
             linkedin: 'https://www.linkedin.com/'
-          },
+          }
         ]
       },
       {
@@ -597,7 +546,8 @@ export const equipeProvider: {
             role: 'Controle',
             imagePath: '',
             linkedin: 'https://www.linkedin.com/'
-          },{
+          },
+          {
             name: 'João Pedro Nunes',
             role: 'Controle',
             imagePath: '',
@@ -608,7 +558,7 @@ export const equipeProvider: {
             role: 'Controle',
             imagePath: '',
             linkedin: 'https://www.linkedin.com/'
-          },
+          }
         ]
       },
       {
@@ -631,7 +581,8 @@ export const equipeProvider: {
             role: 'Aerodinâmica',
             imagePath: '',
             linkedin: 'https://www.linkedin.com/'
-          },{
+          },
+          {
             name: 'Luísa Vilela',
             role: 'Aerodinâmica',
             imagePath: '',
@@ -696,7 +647,7 @@ export const equipeProvider: {
             role: 'Direção',
             imagePath: '',
             linkedin: 'https://www.linkedin.com/'
-          },
+          }
         ]
       }
     ]
@@ -758,7 +709,8 @@ export const equipeProvider: {
             role: 'Gestão de Pessoas',
             imagePath: '',
             linkedin: 'https://www.linkedin.com/'
-          },{
+          },
+          {
             name: 'Lyandra Souto',
             role: 'Gestão de Pessoas',
             imagePath: '',
@@ -811,7 +763,7 @@ export const equipeProvider: {
             role: 'Design',
             imagePath: '',
             linkedin: 'https://www.linkedin.com/'
-          },
+          }
         ]
       },
       {
@@ -876,7 +828,8 @@ export const equipeProvider: {
             role: 'Aquisição de Dados',
             imagePath: '',
             linkedin: 'https://www.linkedin.com/'
-          },{
+          },
+          {
             name: 'Lucas Emídio',
             role: 'Aquisição de Dados',
             imagePath: '',
@@ -887,7 +840,8 @@ export const equipeProvider: {
             role: 'Aquisição de Dados',
             imagePath: '',
             linkedin: 'https://www.linkedin.com/'
-          },{
+          },
+          {
             name: 'Gabriel Almeida',
             role: 'Aquisição de Dados',
             imagePath: '',
@@ -898,7 +852,8 @@ export const equipeProvider: {
             role: 'Aquisição de Dados',
             imagePath: '',
             linkedin: 'https://www.linkedin.com/'
-          },{
+          },
+          {
             name: 'Tiago Morais',
             role: 'Aquisição de Dados',
             imagePath: '',
@@ -909,7 +864,8 @@ export const equipeProvider: {
             role: 'Sistema de Segurança',
             imagePath: '',
             linkedin: 'https://www.linkedin.com/'
-          },{
+          },
+          {
             name: 'Alan Franklin',
             role: 'Sistema de Segurança',
             imagePath: '',
@@ -920,7 +876,8 @@ export const equipeProvider: {
             role: 'Sistema de Segurança',
             imagePath: '',
             linkedin: 'https://www.linkedin.com/'
-          },{
+          },
+          {
             name: 'Arthur Vaz',
             role: 'Sistema de Segurança',
             imagePath: '',
@@ -931,7 +888,8 @@ export const equipeProvider: {
             role: 'Sistema de Segurança',
             imagePath: '',
             linkedin: 'https://www.linkedin.com/'
-          },{
+          },
+          {
             name: 'Gláucia Figueiredo',
             role: 'Sistema de Segurança',
             imagePath: '',
@@ -942,7 +900,8 @@ export const equipeProvider: {
             role: 'Controle',
             imagePath: '',
             linkedin: 'https://www.linkedin.com/'
-          },{
+          },
+          {
             name: 'João Pedro Nunes',
             role: 'Controle',
             imagePath: '',
@@ -953,7 +912,8 @@ export const equipeProvider: {
             role: 'Controle',
             imagePath: '',
             linkedin: 'https://www.linkedin.com/'
-          },{
+          },
+          {
             name: 'Samuel Faria',
             role: 'Controle',
             imagePath: '',
@@ -964,13 +924,13 @@ export const equipeProvider: {
             role: 'Controle',
             imagePath: '',
             linkedin: 'https://www.linkedin.com/'
-          },{
+          },
+          {
             name: 'Victória Machado',
             role: 'Controle',
             imagePath: '',
             linkedin: 'https://www.linkedin.com/'
           }
-
         ]
       },
       {
@@ -987,7 +947,8 @@ export const equipeProvider: {
             role: 'Aerodinâmica',
             imagePath: '',
             linkedin: 'https://www.linkedin.com/'
-          },{
+          },
+          {
             name: 'Luísa Vilela',
             role: 'Aerodinâmica',
             imagePath: '',
@@ -998,7 +959,8 @@ export const equipeProvider: {
             role: 'Aerodinâmica',
             imagePath: '',
             linkedin: 'https://www.linkedin.com/'
-          },{
+          },
+          {
             name: 'Lucas Telles',
             role: 'Aerodinâmica',
             imagePath: '',
@@ -1009,7 +971,8 @@ export const equipeProvider: {
             role: 'Estruturas',
             imagePath: '',
             linkedin: 'https://www.linkedin.com/'
-          },{
+          },
+          {
             name: 'Ana Beatriz Strube',
             role: 'Estruturas',
             imagePath: '',
@@ -1020,7 +983,8 @@ export const equipeProvider: {
             role: 'Estruturas',
             imagePath: '',
             linkedin: 'https://www.linkedin.com/'
-          },{
+          },
+          {
             name: 'João Roque',
             role: 'Estruturas',
             imagePath: '',
@@ -1031,7 +995,8 @@ export const equipeProvider: {
             role: 'Transmissão',
             imagePath: '',
             linkedin: 'https://www.linkedin.com/'
-          },{
+          },
+          {
             name: 'Ana Luiza Pereira',
             role: 'Transmissão',
             imagePath: '',
