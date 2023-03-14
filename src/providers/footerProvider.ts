@@ -7,7 +7,6 @@ export const FooterOptionsProvider = {
       { label: 'Parceiros', to: '/parceiros' }
     ],
     [
-      { label: 'Blog', to: '/blog' },
       { label: 'A competição', to: '/competicao' },
       { label: 'Galeria', to: '/galeria' },
       { label: 'Rollouts', to: '/rollouts' }
