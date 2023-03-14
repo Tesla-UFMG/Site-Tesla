@@ -34,6 +34,11 @@
       "static/chunks/webpack.js",
       "static/chunks/main.js",
       "static/chunks/pages/equipe/[year].js"
+    ],
+    "/parceiros": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/parceiros.js"
     ]
   },
   "ampFirstPages": []
