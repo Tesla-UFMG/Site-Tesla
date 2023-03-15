@@ -11,7 +11,7 @@ export const headerOptionsProvider: Array<{
     label: 'Protótipos',
     to: '/prototipos',
     options: [
-      { label: 'NK420', to: '/prototipos/NK420' },
+      { label: 'NK422', to: '/prototipos/NK422' },
       { label: 'NK319', to: '/prototipos/NK319' },
       { label: 'NK218', to: '/prototipos/NK218' },
       { label: 'Kayran', to: '/prototipos/Kayran' }

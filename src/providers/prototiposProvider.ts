@@ -28,14 +28,14 @@ export interface PrototipoData {
 export const prototiposProvider: {
   [prototipo: string]: PrototipoData
 } = {
-  NK420: {
-    year: 2020,
+  NK422: {
+    year: 2022,
     sectionStart: {
       top: false,
       left: true
     },
     positions: {
-      general: 5,
+      general: 3,
       categories: [
         { name: 'custos', position: 5 },
         { name: 'apresentação', position: 5 },
@@ -88,7 +88,7 @@ export const prototiposProvider: {
       },
       {
         type: 'subsystem',
-        content: 'TELEMETRIA & AQUISIÇÃO'
+        content: 'AQUISIÇÃO DE DADOS'
       },
       {
         type: 'text',
@@ -97,7 +97,7 @@ export const prototiposProvider: {
       },
       {
         type: 'subsystem',
-        content: 'BANCO DE BATERIAS'
+        content: 'SISTEMA DE SEGURANÇA'
       },
       {
         type: 'text',
@@ -106,7 +106,7 @@ export const prototiposProvider: {
       },
       {
         type: 'subsystem',
-        content: 'BATTERY MONITORING SYSTEM (BMS)'
+        content: 'SISTEMA TRATIVO'
       },
       {
         type: 'text',
@@ -119,7 +119,7 @@ export const prototiposProvider: {
       },
       {
         type: 'subsystem',
-        content: 'POWERTRAIN'
+        content: 'TRANSMISSÃO'
       },
       {
         type: 'image',
@@ -132,7 +132,7 @@ export const prototiposProvider: {
       },
       {
         type: 'subsystem',
-        content: 'CHASSI'
+        content: 'ESTRUTURAS'
       },
       {
         type: 'image',
@@ -701,7 +701,7 @@ export const years = [
   },
   {
     year: '2022',
-    car: 'NK420',
+    car: 'NK422',
     image: 'NK420.png',
     description: 'Carro em desenvolvimento.',
     to: '/prototipos/NK420',

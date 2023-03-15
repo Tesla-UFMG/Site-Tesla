@@ -1,11 +1,4 @@
-export type Category =
-  | 'diamante'
-  | 'platina'
-  | 'ouro'
-  | 'prata'
-  | 'bronze'
-  | 'parceiros'
-  | 'apoio'
+export type Category = 'diamante' | 'platina' | 'ouro' | 'prata' | 'bronze'
 
 export interface PopoverProps {
   title: string
@@ -31,7 +24,7 @@ export const parceirosProvider: {
     category: 'diamante',
     partners: [
       {
-        path: 'weg.webp',
+        path: 'ansys.jpg',
         title: 'ANSYS',
         description: 'Empresa Foda',
         text: 'Lorem Ipsum dolor sit amet, consectetur adipiscing',
@@ -305,83 +298,6 @@ export const parceirosProvider: {
       {
         path: 'weg.webp',
         title: 'Melexis',
-        description: 'Empresa Foda',
-        text: 'Lorem Ipsum dolor sit amet, consectetur adipiscing',
-        to: 'https://www.weg.net',
-        social: {
-          facebook: 'https://www.facebook.com',
-          instagram: 'https://www.instagram.com',
-          youtube: 'https://www.youtube.com'
-        }
-      }
-    ]
-  },
-  {
-    category: 'apoio',
-    partners: [
-      {
-        path: 'weg.webp',
-        title: 'WEG',
-        description: 'Empresa Foda',
-        text: 'Lorem Ipsum dolor sit amet, consectetur adipiscing',
-        to: 'https://www.weg.net',
-        social: {
-          facebook: 'https://www.facebook.com',
-          instagram: 'https://www.instagram.com',
-          youtube: 'https://www.youtube.com'
-        }
-      },
-      {
-        path: 'weg.webp',
-        title: 'WEG',
-        description: 'Empresa Foda',
-        text: 'Lorem Ipsum dolor sit amet, consectetur adipiscing',
-        to: 'https://www.weg.net',
-        social: {
-          facebook: 'https://www.facebook.com',
-          instagram: 'https://www.instagram.com',
-          youtube: 'https://www.youtube.com'
-        }
-      },
-      {
-        path: 'weg.webp',
-        title: 'WEG',
-        description: 'Empresa Foda',
-        text: 'Lorem Ipsum dolor sit amet, consectetur adipiscing',
-        to: 'https://www.weg.net',
-        social: {
-          facebook: 'https://www.facebook.com',
-          instagram: 'https://www.instagram.com',
-          youtube: 'https://www.youtube.com'
-        }
-      },
-      {
-        path: 'weg.webp',
-        title: 'WEG',
-        description: 'Empresa Foda',
-        text: 'Lorem Ipsum dolor sit amet, consectetur adipiscing',
-        to: 'https://www.weg.net',
-        social: {
-          facebook: 'https://www.facebook.com',
-          instagram: 'https://www.instagram.com',
-          youtube: 'https://www.youtube.com'
-        }
-      },
-      {
-        path: 'weg.webp',
-        title: 'WEG',
-        description: 'Empresa Foda',
-        text: 'Lorem Ipsum dolor sit amet, consectetur adipiscing',
-        to: 'https://www.weg.net',
-        social: {
-          facebook: 'https://www.facebook.com',
-          instagram: 'https://www.instagram.com',
-          youtube: 'https://www.youtube.com'
-        }
-      },
-      {
-        path: 'weg.webp',
-        title: 'WEG',
         description: 'Empresa Foda',
         text: 'Lorem Ipsum dolor sit amet, consectetur adipiscing',
         to: 'https://www.weg.net',
