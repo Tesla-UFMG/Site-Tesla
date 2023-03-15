@@ -250,36 +250,43 @@ export const ImageWrapper = styled(ImageWrapperUnstyled)<{
 
   ${props =>
     props.category === 'diamante' && {
+      margin: 'auto',
       width: '350px'
     }}
 
   ${props =>
     props.category === 'platina' && {
+      margin: 'auto',
       width: '250px'
     }}
 
   ${props =>
     props.category === 'ouro' && {
+      margin: 'auto',
       width: '200px'
     }}
 
   ${props =>
     props.category === 'prata' && {
+      margin: 'auto',
       width: '150px'
     }}
 
   ${props =>
     props.category === 'bronze' && {
+      margin: 'auto',
       width: '100px'
     }}
 
   ${props =>
     props.category === 'parceiros' && {
+      margin: 'auto',
       width: '100px'
     }}
 
   ${props =>
     props.category === 'apoio' && {
+      margin: 'auto',
       width: '100px'
     }}
 

@@ -24,15 +24,15 @@ export const parceirosProvider: {
     category: 'diamante',
     partners: [
       {
-        path: 'ansys.jpg',
+        path: 'ansys.png',
         title: 'ANSYS',
-        description: 'Empresa Foda',
-        text: 'Lorem Ipsum dolor sit amet, consectetur adipiscing',
+        description: 'Companhia relacionada à simulação computacional',
+        text: 'ANSYS, Inc. é um desenvolvedor de programas de simulação para engenharia sediado em Canonsburg, Pensilvânia, Estados Unidos. A companhia foi fundada em 1970 por John A. Swanson, e denominada originalmente Swanson Analysis Systems, Inc.',
         to: 'https://www.ansys.com',
         social: {
-          facebook: 'https://www.facebook.com',
-          instagram: 'https://www.instagram.com',
-          youtube: 'https://www.youtube.com'
+          facebook: 'https://www.facebook.com/Ansys/',
+          instagram: 'https://www.instagram.com/ansys_inc/',
+          youtube: 'https://www.youtube.com/user/ansysinc'
         }
       }
     ]
@@ -41,75 +41,73 @@ export const parceirosProvider: {
     category: 'platina',
     partners: [
       {
-        path: 'weg.webp',
+        path: 'weg.png',
         title: 'WEG',
-        description: 'Empresa Foda',
-        text: 'Lorem Ipsum dolor sit amet, consectetur adipiscing',
+        description:
+          'Empresa especializada na fabricação e comercialização de motores elétricos, transformadores, geradores e tintas.',
+        text: 'WEG S.A é uma empresa multinacional brasileira, foi fundada em 1961, com sede na cidade de Jaraguá do Sul, no estado de Santa Catarina.',
         to: 'https://www.weg.net',
         social: {
-          facebook: 'https://www.facebook.com',
-          instagram: 'https://www.instagram.com',
-          youtube: 'https://www.youtube.com'
+          facebook: 'https://www.facebook.com/weg.brasil/',
+          instagram: 'https://www.instagram.com/weg.motores/',
+          youtube: 'https://www.youtube.com/channel/UCs1vPZqsU9WmcSmNkUO6T7w'
         }
       },
       {
         path: 'fablab.webp',
         title: 'Fablab',
-        description: 'Empresa Foda',
-        text: 'Lorem Ipsum dolor sit amet, consectetur adipiscing',
+        description:
+          ' É uma rede de laboratórios públicos - espaços de criatividade, aprendizado e inovação.',
+        text: 'Um fab lab é uma oficina que oferece recursos de fabricação digital. Um fab lab é geralmente equipado com um conjunto de ferramentas flexíveis controladas por computador que cobrem diversas escalas de tamanho e diversos materiais diferentes, com o objetivo de fazer "quase tudo".',
         to: 'https://www.fablabs.io',
         social: {
-          facebook: 'https://www.facebook.com',
-          instagram: 'https://www.instagram.com',
-          youtube: 'https://www.youtube.com'
+          instagram: 'https://www.instagram.com/institutofablabbrasil/'
         }
       },
       {
         path: 'isofort.png',
         title: 'Isofort',
-        description: 'Empresa Foda',
-        text: 'Lorem Ipsum dolor sit amet, consectetur adipiscing',
+        description:
+          'Empresa especializada no fornecimento de poliestireno expandido (EPS)',
+        text: 'A Isofort fabrica bloquetes de EPS, cantoneiras, perfis, fôrmas, lajes nervuradas, juntas de dilatação, painéis para isolamento térmico de ambientes etc. Atua em todo o território nacional.',
         to: 'https://isofort.com.br',
         social: {
-          facebook: 'https://www.facebook.com',
-          instagram: 'https://www.instagram.com',
-          youtube: 'https://www.youtube.com'
+          facebook: 'https://www.facebook.com/isofortoficial/',
+          instagram: 'https://www.instagram.com/isofortoficial/',
+          youtube: 'https://www.youtube.com/channel/UCaJ2z4yP0ac7q-kiZoq5rGw'
         }
       },
       {
-        path: 'weg.webp',
+        path: 'rois.png',
         title: 'Rois',
-        description: 'Empresa Foda',
-        text: 'Lorem Ipsum dolor sit amet, consectetur adipiscing',
-        to: 'https://www.weg.net',
-        social: {
-          facebook: 'https://www.facebook.com',
-          instagram: 'https://www.instagram.com',
-          youtube: 'https://www.youtube.com'
-        }
+        description:
+          'Empresa especializada em serviços de usinagem, tornearia e solda.',
+        text: 'Em serviços de usinagem, tornearia e solda estão incluídas atividades de grande importância para a indústria e no processo de manufatura de peças metálicas para diversas máquinas e equipamentos. Entre as atividades, citam-se: fresagem, jateamento de peças (também de granalhas), jateamento-usinagem (de areia), tornearia e usinagem de forma geral (tornos, fresas).',
+        to: '',
+        social: {}
       },
       {
         path: 'siemens.png',
         title: 'Siemens',
-        description: 'Empresa Foda',
-        text: 'Lorem Ipsum dolor sit amet, consectetur adipiscing',
+        description:
+          'Empresa especializada em automação, mobilidade, energia, soluções industriais e empresariais.',
+        text: 'A Siemens Aktiengesellschaft, ou simplesmente Siemens AG, é um conglomerado industrial alemão, sendo o maior da Europa e um dos maiores do mundo. Seus principais escritórios estão localizados em Berlim, Munique e Erlangen.',
         to: 'https://www.siemens.com/br/pt.html',
         social: {
-          facebook: 'https://www.facebook.com',
-          instagram: 'https://www.instagram.com',
-          youtube: 'https://www.youtube.com'
+          facebook: 'https://www.facebook.com/SiemensBrasil/',
+          instagram: 'https://www.instagram.com/siemens/',
+          youtube: 'https://www.youtube.com/user/siemens'
         }
       },
       {
-        path: 'weg.webp',
+        path: 'triadimensio.jpg',
         title: 'Triadimensio',
-        description: 'Empresa Foda',
-        text: 'Lorem Ipsum dolor sit amet, consectetur adipiscing',
-        to: 'https://www.weg.net',
+        description: 'Empresa especializada em impressões 3D',
+        text: 'a Triadimensio se dedica à prototipação rápida através da impressão de peças em 3d com modelamento tridimensional feita pelo cliente ou desenvolvido por encomenda',
+        to: 'https://www.triadimensio.com/',
         social: {
-          facebook: 'https://www.facebook.com',
-          instagram: 'https://www.instagram.com',
-          youtube: 'https://www.youtube.com'
+          facebook: 'https://www.facebook.com/triadimensio/?locale=pt_BR',
+          instagram: 'https://www.instagram.com/triadimensio_impressao3d/'
         }
       }
     ]
