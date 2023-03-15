@@ -32,7 +32,7 @@ export const headerOptionsProvider: Array<{
 export const siderbarOptionsProvider = [
   { label: 'História', to: '/historia' },
   { label: 'Protótipos', to: '/prototipos' },
-  { label: 'Equipe', to: '/equipe/2019' },
+  { label: 'Equipe', to: '/equipe/2023' },
   { label: 'Parceiros', to: '/parceiros' },
   { label: 'A competição', to: '/competicao' },
   { label: 'Galeria', to: '/galeria' },

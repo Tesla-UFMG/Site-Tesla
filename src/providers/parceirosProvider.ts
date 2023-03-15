@@ -53,11 +53,11 @@ export const parceirosProvider: {
         }
       },
       {
-        path: 'weg.webp',
+        path: 'fablab.webp',
         title: 'Fablab',
         description: 'Empresa Foda',
         text: 'Lorem Ipsum dolor sit amet, consectetur adipiscing',
-        to: 'https://www.weg.net',
+        to: 'https://www.fablabs.io',
         social: {
           facebook: 'https://www.facebook.com',
           instagram: 'https://www.instagram.com',
@@ -65,7 +65,7 @@ export const parceirosProvider: {
         }
       },
       {
-        path: 'weg.webp',
+        path: 'isofort.png',
         title: 'Isofort',
         description: 'Empresa Foda',
         text: 'Lorem Ipsum dolor sit amet, consectetur adipiscing',
@@ -89,11 +89,11 @@ export const parceirosProvider: {
         }
       },
       {
-        path: 'weg.webp',
+        path: 'siemens.png',
         title: 'Siemens',
         description: 'Empresa Foda',
         text: 'Lorem Ipsum dolor sit amet, consectetur adipiscing',
-        to: 'https://www.weg.net',
+        to: 'https://www.siemens.com/br/pt.html',
         social: {
           facebook: 'https://www.facebook.com',
           instagram: 'https://www.instagram.com',
@@ -135,11 +135,11 @@ export const parceirosProvider: {
     category: 'prata',
     partners: [
       {
-        path: 'weg.webp',
+        path: 'ciser.svg',
         title: 'Ciser',
         description: 'Empresa Foda',
         text: 'Lorem Ipsum dolor sit amet, consectetur adipiscing',
-        to: 'https://www.weg.net',
+        to: 'https://www.ciser.com.br',
         social: {
           facebook: 'https://www.facebook.com',
           instagram: 'https://www.instagram.com',
@@ -147,11 +147,11 @@ export const parceirosProvider: {
         }
       },
       {
-        path: 'weg.webp',
+        path: 'plastmetal.png',
         title: 'Plastmetal',
         description: 'Empresa Foda',
         text: 'Lorem Ipsum dolor sit amet, consectetur adipiscing',
-        to: 'https://www.weg.net',
+        to: 'https://plastmetal.com.br',
         social: {
           facebook: 'https://www.facebook.com',
           instagram: 'https://www.instagram.com',
@@ -159,11 +159,11 @@ export const parceirosProvider: {
         }
       },
       {
-        path: 'weg.webp',
+        path: 'sensata.png',
         title: 'Sensata',
         description: 'Empresa Foda',
         text: 'Lorem Ipsum dolor sit amet, consectetur adipiscing',
-        to: 'https://www.weg.net',
+        to: 'https://www.sensata.com',
         social: {
           facebook: 'https://www.facebook.com',
           instagram: 'https://www.instagram.com',
@@ -171,7 +171,7 @@ export const parceirosProvider: {
         }
       },
       {
-        path: 'weg.webp',
+        path: 'solidworks.png',
         title: 'SolidWorks',
         description: 'Empresa Foda',
         text: 'Lorem Ipsum dolor sit amet, consectetur adipiscing',
@@ -219,11 +219,11 @@ export const parceirosProvider: {
         }
       },
       {
-        path: 'weg.webp',
+        path: 'tekbond.svg',
         title: 'Tek Bond',
         description: 'Empresa Foda',
         text: 'Lorem Ipsum dolor sit amet, consectetur adipiscing',
-        to: 'https://www.weg.net',
+        to: 'https://www.tekbond.com.br',
         social: {
           facebook: 'https://www.facebook.com',
           instagram: 'https://www.instagram.com',
@@ -236,11 +236,11 @@ export const parceirosProvider: {
     category: 'bronze',
     partners: [
       {
-        path: 'weg.webp',
+        path: 'cabelauto.png',
         title: 'Cabelauto',
         description: 'Empresa Foda',
         text: 'Lorem Ipsum dolor sit amet, consectetur adipiscing',
-        to: 'https://www.weg.net',
+        to: 'https://www.cabelauto.com.br',
         social: {
           facebook: 'https://www.facebook.com',
           instagram: 'https://www.instagram.com',
@@ -260,7 +260,7 @@ export const parceirosProvider: {
         }
       },
       {
-        path: 'weg.webp',
+        path: 'kingston.png',
         title: 'Kingston',
         description: 'Empresa Foda',
         text: 'Lorem Ipsum dolor sit amet, consectetur adipiscing',
@@ -272,7 +272,7 @@ export const parceirosProvider: {
         }
       },
       {
-        path: 'weg.webp',
+        path: 'littelfuse.png',
         title: 'Littelfuse',
         description: 'Empresa Foda',
         text: 'Lorem Ipsum dolor sit amet, consectetur adipiscing',
@@ -284,11 +284,11 @@ export const parceirosProvider: {
         }
       },
       {
-        path: 'weg.webp',
+        path: 'lojaeletrica.png',
         title: 'Loja Elétrica',
         description: 'Empresa Foda',
         text: 'Lorem Ipsum dolor sit amet, consectetur adipiscing',
-        to: 'https://www.weg.net',
+        to: 'http://www.lojaeletrica.com.br',
         social: {
           facebook: 'https://www.facebook.com',
           instagram: 'https://www.instagram.com',
@@ -296,7 +296,7 @@ export const parceirosProvider: {
         }
       },
       {
-        path: 'weg.webp',
+        path: 'melexis.svg',
         title: 'Melexis',
         description: 'Empresa Foda',
         text: 'Lorem Ipsum dolor sit amet, consectetur adipiscing',

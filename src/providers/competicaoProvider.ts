@@ -22,7 +22,7 @@ export const competicaoProvider = {
       {
         title: 'Custos',
         text: 'Requer a submissão de um relatório detalhando o custo total de fabricação do carro e uma apresentação na competição.',
-        points: '50 pts'
+        points: '100 pts'
       }
     ],
     [
