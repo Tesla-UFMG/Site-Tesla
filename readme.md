@@ -141,6 +141,7 @@ O Objeto é composto pelas seguintes chaves:
 
 A página de cada protótipo é construida com o conteúdo presente no objeto `prototiposProvider`. Esse objeto contém chaves com os nomes dos protótipos, mesmo nomes que devem ser usados no caminho da url do protótipo.
 
+
 O objeto de cada protótipo contém as seguintes chaves:
 
 - year: Number, ano da competição que o carro foi usado, aparece na primeira sessão
@@ -234,7 +235,10 @@ A página de rollouts é construida com o conteúdo presente em `RolloutsProvide
 - video: Array de objetos, com o vídeo, sendo esse objeto da seguinte forma:
   - title: string, opcional, usado para casos como 'Parte 01'
   - url: string, url do vídeo
-#   s i t e - t e s l a  
- #   s i t e - t e s l a  
- #   s i t e - t e s l a  
- 
+#� �s�i�t�e�-�t�e�s�l�a�
+�
+�#� �s�i�t�e�-�t�e�s�l�a�
+�
+�#� �s�i�t�e�-�t�e�s�l�a�
+�
+�
