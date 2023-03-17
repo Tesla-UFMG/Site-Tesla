@@ -116,11 +116,11 @@ export const parceirosProvider: {
     category: 'ouro',
     partners: [
       {
-        path: 'weg.webp',
+        path: 'st.png',
         title: 'ST',
         description: 'Empresa Foda',
         text: 'Lorem Ipsum dolor sit amet, consectetur adipiscing',
-        to: 'https://www.weg.net',
+        to: 'https://www.st.com/content/st_com/en.html',
         social: {
           facebook: 'https://www.facebook.com',
           instagram: 'https://www.instagram.com',
@@ -181,11 +181,11 @@ export const parceirosProvider: {
         }
       },
       {
-        path: 'weg.webp',
+        path: 'step.png',
         title: 'STEP',
         description: 'Empresa Foda',
         text: 'Lorem Ipsum dolor sit amet, consectetur adipiscing',
-        to: 'https://www.weg.net',
+        to: 'https://stepspa.com.br',
         social: {
           facebook: 'https://www.facebook.com',
           instagram: 'https://www.instagram.com',
@@ -193,11 +193,11 @@ export const parceirosProvider: {
         }
       },
       {
-        path: 'weg.webp',
+        path: 'stick.png',
         title: 'Stick',
         description: 'Empresa Foda',
         text: 'Lorem Ipsum dolor sit amet, consectetur adipiscing',
-        to: 'https://www.weg.net',
+        to: 'https://stick.ind.br',
         social: {
           facebook: 'https://www.facebook.com',
           instagram: 'https://www.instagram.com',
@@ -205,11 +205,11 @@ export const parceirosProvider: {
         }
       },
       {
-        path: 'weg.webp',
+        path: 'te.png',
         title: 'TE',
         description: 'Empresa Foda',
         text: 'Lorem Ipsum dolor sit amet, consectetur adipiscing',
-        to: 'https://www.weg.net',
+        to: 'https://www.te.com/global-en/home.html',
         social: {
           facebook: 'https://www.facebook.com',
           instagram: 'https://www.instagram.com',
