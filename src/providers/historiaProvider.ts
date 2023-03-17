@@ -33,6 +33,18 @@ export const historiaProvider: HistoriaProviderInterface = [
       },
       {
         type: 'title',
+        text: 'NOSSO PROPÓSITO'
+      },
+      {
+        type: 'text',
+        text: 'Nosso propósito é proporcionar um ambiente no qual todos os nossos membros consigam se desenvolver tanto no âmbito profissional quanto no pessoal.'
+      },
+      {
+        type: 'text',
+        text: 'Fazemos isso por meio da elaboração de projetos complexos nas áreas de administração, eletrônica e mecânica. Para exemplificar temos um carro autenticamente bem projetado, ou seja, 100% do nosso carro é projetado e dimensionado pela equipe, e 80% é fabricado na oficina da equipe. Além disso, trabalhamos com uma gestão prática e eficiente da equipe'
+      },
+      {
+        type: 'title',
         text: 'COMO TUDO COMEÇOU'
       },
       {
@@ -335,7 +347,8 @@ export const historiaProvider: HistoriaProviderInterface = [
         legend: 'Equipe 2019'
       }
     ]
-  }, ,
+  },
+  ,
   {
     id: 'content-2021',
     content: [
@@ -412,7 +425,8 @@ export const historiaProvider: HistoriaProviderInterface = [
         legend: 'Equipe 2019'
       }
     ]
-  }, ,
+  },
+  ,
   {
     id: 'content-2022',
     content: [
