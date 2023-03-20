@@ -37,12 +37,12 @@ export const prototiposProvider: {
     positions: {
       general: 3,
       categories: [
-        { name: 'custos', position: 5 },
-        { name: 'apresentação', position: 5 },
-        { name: 'design', position: 1 },
+        { name: 'custos', position: 6 },
+        { name: 'apresentação', position: 1 },
+        { name: 'design', position: 2 },
         { name: 'aceleração' },
         { name: 'skidpad' },
-        { name: 'autocross', position: 5 },
+        { name: 'autocross', position: 3 },
         { name: 'enduro' }
       ],
       text: [
