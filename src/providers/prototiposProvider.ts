@@ -102,7 +102,7 @@ export const prototiposProvider: {
       {
         type: 'text',
         content:
-          'A principal mudança no banco de baterias foi o acréscimo de mais um ramo de células em paralelo, a fim de aumentar a capacidade de carga e possibilitar a finalização da prova de Enduro juntamente com o novo pacote aerodinâmico e a frenagem regenerativa. O banco passou a ter 72 células e a configuração tornou-se 24s3p. Um dos destaques do projeto foi a diminuição do volume da estrutura em 10% em relação ao ano anterior, mesmo com o aumento da quantidade de células em 50%. Também, o isolamento elétrico foi otimizado e reduziu-se a quantidade de parafusos necessários para a montagem, contribuindo para a segurança, facilidade de manutenção e baixo peso.'
+          'Em 2022 , adaptamos o Sistema de Monitoramento de Baterias (BMS) para atender os requisitos da nova configuração do acumulador. Refatoramos grande parte do firmware do BMS, melhorando a confiabilidade, legibilidade e manutenção do código. Também fizemos progresso na pesquisa sobre o Estado de Carga das baterias, estudando implementações do algoritmo para o seu cálculo e trabalhando para aperfeiçoar as medicações de corrente do banco de baterias. Além disso, pequenas modificações foram feitas em outros sistemas de segurança para garantir a conformidade com as alterações previstas no regulamento da FSAE 2022.'
       },
       {
         type: 'subsystem',
@@ -111,7 +111,7 @@ export const prototiposProvider: {
       {
         type: 'text',
         content:
-          'O BMS – modular, baseado em master/slave e ampliável – foi otimizado, contando com filtros via software e um display touchscreen para controle de parâmetros e monitoração local em tempo real, auxiliando no monitoramento do carregamento e diagnóstico de manutenção do banco.'
+          'Para a temporada 2023, a montagem interna do nosso banco de baterias está sendo refeita, visando adequar o mesmo a novos itens do regulamento e melhorar a organização interna. O banco conta com 48 células, sendo que subteremos cada uma delas a testes de SoH ( State of Health ), tornando nosso monitoramento de SoC (State of Charge) mais preciso e aumentando nosso conhecimento sobre nossas baterias. Em paralelo, como forma de melhorar a eficiência do carro, seguimos com nossos estudos de frenagem regenerativa, buscando torná-la adaptativa em diferentes situações de operação do veículo, e também realizando modelagens térmicas para os diferentes componentes que integram nosso Sistema Trativo, melhorando as estimativas sobre a temperatura dos mesmos.'
       },
       {
         type: 'title',
@@ -154,7 +154,7 @@ export const prototiposProvider: {
       {
         type: 'text',
         content:
-          'A nova meta da equipe de completar a prova de enduro mesmo com limitações de baterias e motores fez com que o pacote aerodinâmico fosse focado em proporcionar maior eficiência ao veículo. Com base nisso, a asa dianteira, a carenagem traseira e o bico foram desenvolvidos com o intuito exclusivo de diminuir a resistência aerodinâmica, o que resultou em uma redução final de 50% nos níveis de arrasto. Todo o projeto foi baseado no uso de CFD para o desenvolvimento e prototipagem e, de modo a avaliar de forma efetiva a eficiência do pacote aerodinâmico e seus impactos nas provas e pontuações finais, testes em túnel de vento e em pista foram realizados.'
+          'O subsistema de aerodinâmica tem como responsabilidade potencializar os resultados dos projetos da equipe por meio do uso inteligente do escoamento, proporcionando a maior redução de arrasto possível. O pacote aerodinâmico é composto pelo projeto de uma asa, de um bico, de uma carenagem traseira e de um difusor. Na temporada atual, reforçamos a geração efetiva de downforce, tendo em vista a importância do desempenho em curvas na competição.'
       },
       {
         type: 'subsystem',
