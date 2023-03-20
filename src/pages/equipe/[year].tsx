@@ -24,7 +24,7 @@ import {
   VideoWrapper
 } from '../../styles/pages/Equipe'
 
-type Years = '2023' |'2022' | '2021' | '2020' | '2019'
+type Years = '2023' | '2022' | '2021' | '2020' | '2019' | '2018' | '2017'
 
 export async function getStaticPaths() {
   const paths = [
@@ -33,7 +33,8 @@ export async function getStaticPaths() {
     { params: { year: '2021' } },
     { params: { year: '2020' } },
     { params: { year: '2019' } },
-    
+    { params: { year: '2018' } },
+    { params: { year: '2017' } }
   ]
   return { paths: paths || [], fallback: false }
 }
