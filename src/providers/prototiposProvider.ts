@@ -111,7 +111,7 @@ export const prototiposProvider: {
       {
         type: 'text',
         content:
-          'Para a temporada 2023, a montagem interna do nosso banco de baterias está sendo refeita, visando adequar o mesmo a novos itens do regulamento e melhorar a organização interna. O banco conta com 48 células, sendo que subteremos cada uma delas a testes de SoH ( State of Health ), tornando nosso monitoramento de SoC (State of Charge) mais preciso e aumentando nosso conhecimento sobre nossas baterias. Em paralelo, como forma de melhorar a eficiência do carro, seguimos com nossos estudos de frenagem regenerativa, buscando torná-la adaptativa em diferentes situações de operação do veículo, e também realizando modelagens térmicas para os diferentes componentes que integram nosso Sistema Trativo, melhorando as estimativas sobre a temperatura dos mesmos.'
+          'O Sistema Trativo em 2022 lidou com a continuidade dos estudos de frenagem regenerativa, mas principalmente com a reconstrução do acumulador. Houve uma atualização do regulamento, no que tangia a algumas distâncias nas quais o acumulador que a equipe possuia não mais se encaixava. Visto isso, foi necessária uma grande reformulação do projeto, mudando layout externo, layout interna e capacidade do banco como um todo. Apesar de todas as dificuldades, o projeto foi entregue e fabricado em tempo recorde e adequado ao regulamento da competição de 2022.'
       },
       {
         type: 'title',
