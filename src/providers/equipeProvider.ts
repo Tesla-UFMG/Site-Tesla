@@ -1185,7 +1185,7 @@ export const equipeProvider: {
   2023: {
     captain: {
       name: 'Eduardo Fujii',
-      imagePath: '',
+      imagePath: 'image-27.jpg', 
       linkedin: 'https://www.linkedin.com/'
     },
     members: [
@@ -1195,7 +1195,7 @@ export const equipeProvider: {
           {
             name: 'Matheo Mares',
             role: 'Diretor Geral',
-            imagePath: '',
+            imagePath: 'image-25.jpg',
             linkedin: 'https://www.linkedin.com/'
           },
           {
@@ -1267,7 +1267,7 @@ export const equipeProvider: {
           {
             name: 'Augusto Campos',
             role: 'Diretor de Financeiro',
-            imagePath: '',
+            imagePath: 'image-24.jpg',
             linkedin: 'https://www.linkedin.com/'
           },
           {
@@ -1302,7 +1302,7 @@ export const equipeProvider: {
           {
             name: 'Lucas Silveira',
             role: 'Diretor Geral',
-            imagePath: '',
+            imagePath: 'image-11.jpg',
             linkedin: 'https://www.linkedin.com/'
           },
           {
@@ -1314,7 +1314,7 @@ export const equipeProvider: {
           {
             name: 'Antônio Temponi',
             role: 'Sistema Trativo',
-            imagePath: '',
+            imagePath: 'image-09.jpg',
             linkedin: 'https://www.linkedin.com/'
           },
           {
@@ -1326,7 +1326,7 @@ export const equipeProvider: {
           {
             name: 'Guilherme Camargo',
             role: 'Sistema Trativo',
-            imagePath: '',
+            imagePath: 'image-13.jpg',
             linkedin: 'https://www.linkedin.com/'
           },
           {
@@ -1344,7 +1344,7 @@ export const equipeProvider: {
           {
             name: 'Arthur Roquete',
             role: 'Sistema Trativo',
-            imagePath: '',
+            imagePath: 'image-28.jpg',
             linkedin: 'https://www.linkedin.com/'
           },
           {
@@ -1356,7 +1356,7 @@ export const equipeProvider: {
           {
             name: 'Guilherme Barbosa',
             role: 'Diretor de Aquisição de Dados',
-            imagePath: '',
+            imagePath: 'image-26.jpg',
             linkedin: 'https://www.linkedin.com/'
           },
           {
@@ -1368,19 +1368,19 @@ export const equipeProvider: {
           {
             name: 'David Protil',
             role: 'Aquisição de Dados',
-            imagePath: '',
+            imagePath: 'image-29.jpg',
             linkedin: 'https://www.linkedin.com/'
           },
           {
             name: 'Gabriel Almeida',
             role: 'Aquisição de Dados',
-            imagePath: '',
+            imagePath: 'image-33.jpg',
             linkedin: 'https://www.linkedin.com/'
           },
           {
             name: 'Leonardo Fernandes',
             role: 'Aquisição de Dados',
-            imagePath: '',
+            imagePath: 'image-12.jpg',
             linkedin: 'https://www.linkedin.com/'
           },
           {
@@ -1398,19 +1398,19 @@ export const equipeProvider: {
           {
             name: 'Alan Franklin',
             role: 'Sistema de Segurança',
-            imagePath: '',
+            imagePath: 'image-21.jpg',
             linkedin: 'https://www.linkedin.com/'
           },
           {
             name: 'Maria Luisa',
             role: 'Sistema de Segurança',
-            imagePath: '',
+            imagePath: 'image-23.jpg',
             linkedin: 'https://www.linkedin.com/'
           },
           {
             name: 'Arthur Vaz',
             role: 'Sistema de Segurança',
-            imagePath: '',
+            imagePath: 'image-34.jpg',
             linkedin: 'https://www.linkedin.com/'
           },
           {
@@ -1440,7 +1440,7 @@ export const equipeProvider: {
           {
             name: 'Tarcísio Carvalho',
             role: 'Controle',
-            imagePath: '',
+            imagePath: 'image-19.jpg',
             linkedin: 'https://www.linkedin.com/'
           },
           {
@@ -1469,13 +1469,13 @@ export const equipeProvider: {
           {
             name: 'Renato Nicolato',
             role: 'Diretor Geral',
-            imagePath: '',
+            imagePath: 'image-38.jpg',
             linkedin: 'https://www.linkedin.com/'
           },
           {
             name: 'Marília Fagundes',
             role: 'Diretora de Aerodinâmica',
-            imagePath: '',
+            imagePath: 'image-32.jpg',
             linkedin: 'https://www.linkedin.com/'
           },
           {
@@ -1487,7 +1487,7 @@ export const equipeProvider: {
           {
             name: 'Júlia Viegas',
             role: 'Aerodinâmica',
-            imagePath: '',
+            imagePath: 'image-15.jpg',
             linkedin: 'https://www.linkedin.com/'
           },
           {
@@ -1505,13 +1505,13 @@ export const equipeProvider: {
           {
             name: 'Ana Beatriz Strube',
             role: 'Estruturas',
-            imagePath: '',
+            imagePath: 'image-14.jpg',
             linkedin: 'https://www.linkedin.com/'
           },
           {
             name: 'Gabriel Rocha',
             role: 'Estruturas',
-            imagePath: '',
+            imagePath: 'image-42.jpg',
             linkedin: 'https://www.linkedin.com/'
           },
           {
@@ -1529,13 +1529,13 @@ export const equipeProvider: {
           {
             name: 'Ana Luiza Pereira',
             role: 'Transmissão',
-            imagePath: '',
+            imagePath: 'image-16.jpg',
             linkedin: 'https://www.linkedin.com/'
           },
           {
             name: 'Rodrigo Reis',
             role: 'Transmissão',
-            imagePath: '',
+            imagePath: 'image-18.jpg',
             linkedin: 'https://www.linkedin.com/'
           },
           {
@@ -1559,25 +1559,25 @@ export const equipeProvider: {
           {
             name: 'Lucas Araujo',
             role: 'Direção',
-            imagePath: '',
+            imagePath: 'image-41.jpg',
             linkedin: 'https://www.linkedin.com/'
           },
           {
             name: 'Gabriel Amaro',
             role: 'Direção',
-            imagePath: '',
+            imagePath: 'image-37.jpg',
             linkedin: 'https://www.linkedin.com/'
           },
           {
             name: 'Arthur Librelon',
             role: 'Suspensão',
-            imagePath: '',
+            imagePath: 'image-10.jpg',
             linkedin: 'https://www.linkedin.com/'
           },
           {
             name: 'Lucca Andrade',
             role: 'Suspensão',
-            imagePath: '',
+            imagePath: 'image-20.jpg',
             linkedin: 'https://www.linkedin.com/'
           }
         ]
