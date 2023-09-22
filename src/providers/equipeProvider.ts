@@ -30,37 +30,37 @@ export const equipeProvider: {
             name: 'Felippe Nogueira',
             role: 'Vice-capitão',
             imagePath: '',
-            linkedin: ''
+            linkedin: 'https://www.linkedin.com/in/felippesimoes/'
           },
           {
             name: 'Leonardo Salim',
             role: 'Gestão geral',
             imagePath: '',
-            linkedin: ''
+            linkedin: 'https://www.linkedin.com/in/leonardo-marcos-gomes-salim-616a23209/'
           },
           {
             name: 'Lígia Lamounier',
             role: 'Gestão geral',
             imagePath: '',
-            linkedin: ''
+            linkedin: 'https://www.linkedin.com/in/l%C3%ADgia-bittencourt-173ba992/'
           },
           {
             name: 'Natália da Mata',
             role: 'Gestão de recursos',
             imagePath: '',
-            linkedin: ''
+            linkedin: 'https://www.linkedin.com/in/natalia-da-mata-c-m/'
           },
           {
             name: 'Allan Santos',
             role: 'Marketing',
             imagePath: '',
-            linkedin: ''
+            linkedin: 'https://www.linkedin.com/in/allansaints/'
           },
           {
             name: 'Pedro Girundi',
             role: 'Marketing',
             imagePath: '',
-            linkedin: ''
+            linkedin: 'https://www.linkedin.com/in/pedrogirundi/'
           }
         ]
       },
