@@ -344,6 +344,7 @@ export const Member = styled(MemberUnstyled)`
         position: unset !important;
         width: 150px !important;
         height: 150px !important;
+        object-fit: cover;
       }
     }
   }
