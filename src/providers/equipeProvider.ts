@@ -308,7 +308,55 @@ export const equipeProvider: {
             role: 'Battery Management System',
             imagePath: '',
             linkedin: 'https://www.linkedin.com/in/virgínia-sátyro-2283a515b'
-          }
+          },
+          {
+            name: 'Bruno Dixini',
+            role: 'ECU',
+            imagePath: '',
+            linkedin: 'https://www.linkedin.com/in/brunodixini/'
+          },
+          {
+            name: 'Gabriel Aragão',
+            role: 'Interface',
+            imagePath: '',
+            linkedin: 'https://www.linkedin.com/in/gabriel-arag%C3%A3o-30620918a/'
+          },
+          {
+            name: 'Guilherme Amorim',
+            role: 'Telemetria e Comunicação',
+            imagePath: '',
+            linkedin: 'https://www.linkedin.com/in/guilherme-vinicius-amorim/ '
+          },
+          {
+            name: 'Irving Martins',
+            role: 'Diretor',
+            imagePath: '',
+            linkedin: 'https://www.linkedin.com/in/irvingmrtn/'
+          },
+          {
+            name: 'Patrick Garcia',
+            role: 'Eletronic Control Unit',
+            imagePath: '',
+            linkedin: 'https://www.linkedin.com/in/patrick-garcia-vilela-15a971a7/'
+          },
+          {
+            name: 'Pedro Couto',
+            role: 'Telemetria e Comunicação',
+            imagePath: '',
+            linkedin: 'https://www.linkedin.com/in/pedrodeoli/'
+          },
+          {
+            name: 'Rafael Monteiro',
+            role: 'Telemetria e Comunicação',
+            imagePath: '',
+            linkedin: 'https://www.linkedin.com/in/rafael-monteiro-3690b49a/  '
+          },
+          {
+            name: 'Victor Moraes',
+            role: 'Eletronic Control Unit',
+            imagePath: '',
+            linkedin: 'https://www.linkedin.com/in/victorjfmoraes/ '
+          },
         ]
       },
       {
