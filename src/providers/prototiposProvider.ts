@@ -28,6 +28,174 @@ export interface PrototipoData {
 export const prototiposProvider: {
   [prototipo: string]: PrototipoData
 } = {
+  NK523: {
+    year: 2023,
+    sectionStart: {
+      top: false,
+      left: true
+    },
+    positions: {
+      general: 3,
+      categories: [
+        { name: 'custos', position: 6 },
+        { name: 'apresentação', position: 1 },
+        { name: 'design', position: 2 },
+        { name: 'aceleração' },
+        { name: 'skidpad' },
+        { name: 'autocross', position: 3 },
+        { name: 'enduro' }
+      ],
+      text: [
+        'TEM QUE MUDAR O TEXTO!!.',
+        'Lançado em 31 de outubro de 2019, foi à competição cheio de expectativas pela surpreendente segunda colocação no ano anterior. O grande empenho da equipe durante o ano levou ao primeiro lugar na prova de projeto, porém o protótipo enfrentou alguns imprevistos nas provas dinâmicas e assim, conquistou a quinta colocação geral.'
+      ]
+    },
+    especifications: {
+      dtec: 'DTEC-NK319.svg',
+      data: [
+        { info: 'Motor', data: '2x WEG VE-M01' },
+        { info: 'Autonomia', data: '22 km' },
+        { info: 'Potência Máx.', data: '54 cv (39,7kW)' },
+        { info: 'Bitola Diant.', data: '1170 mm' },
+        { info: 'Torque Máx.', data: '8,2 Nm (39,7 kW)' },
+        { info: 'Bitola Tras.', data: '1150 mm' },
+        { info: '0 - 75m', data: '5,1 s' },
+        { info: 'Entre-eixos', data: '1150 mm' },
+        { info: 'Velocidade Máx.', data: '99 Km/h' },
+        { info: 'Massa', data: '279 kg' },
+        { info: 'Consumo', data: '216 Wh/km' },
+        { info: 'Massa Diant.', data: '49,9%' }
+      ]
+    },
+    subsystems: [
+      {
+        type: 'title',
+        content: 'ELETRÔNICA'
+      },
+      {
+        type: 'text',
+        content: 'TEM QUE MUDAR O TEXTO!!.'
+      },
+      {
+        type: 'subsystem',
+        content: 'CONTROLE'
+      },
+      {
+        type: 'text',
+        content:
+          'Em 2019 houve a implementação de frenagem regenerativa no veículo e foi investido tempo em pesquisas sobre Controle de Arrancada e Vetorização de Torque para aplicações futuras. Também foi aprimorada a estabilidade de comunicação do sistema de controle com os outros módulos.'
+      },
+      {
+        type: 'subsystem',
+        content: 'AQUISIÇÃO DE DADOS'
+      },
+      {
+        type: 'text',
+        content:
+          'Investiu-se em instrumentação e aquisição de dados, tornando possível medir deformação de peças estruturais, temperatura dos discos de freios, curso dos amortecedores, pressão nas linhas de freio, além das acelerações e velocidade angular do veículo. Esse processo ainda contou com o desenvolvimento de um datalogger para registro de todos os dados aferidos. Associado a isso, os sistemas de telemetria e interface foram aprimorados, garantindo que tanto a equipe nos boxes quanto o piloto conseguissem fazer uma análise instantânea das condições do veículo, auxiliando na definição de estratégias e acompanhamento dos sinais vitais. Houve substituição dos módulos de telemetria NRF para o Xbee, aumentando a eficiência e a taxa de transmissão, e reformulou-se a interface gráfica de visualização de dados em tempo real, podendo agora ser acessada livremente em computadores, tablets e celulares por quaisquer integrantes da equipe simultaneamente.'
+      },
+      {
+        type: 'subsystem',
+        content: 'SISTEMA DE SEGURANÇA'
+      },
+      {
+        type: 'text',
+        content:
+          'Em 2022 , adaptamos o Sistema de Monitoramento de Baterias (BMS) para atender os requisitos da nova configuração do acumulador. Refatoramos grande parte do firmware do BMS, melhorando a confiabilidade, legibilidade e manutenção do código. Também fizemos progresso na pesquisa sobre o Estado de Carga das baterias, estudando implementações do algoritmo para o seu cálculo e trabalhando para aperfeiçoar as medicações de corrente do banco de baterias. Além disso, pequenas modificações foram feitas em outros sistemas de segurança para garantir a conformidade com as alterações previstas no regulamento da FSAE 2022.'
+      },
+      {
+        type: 'subsystem',
+        content: 'SISTEMA TRATIVO'
+      },
+      {
+        type: 'text',
+        content:
+          'O Sistema Trativo em 2022 lidou com a continuidade dos estudos de frenagem regenerativa, mas principalmente com a reconstrução do acumulador. Houve uma atualização do regulamento, no que tangia a algumas distâncias nas quais o acumulador que a equipe possuia não mais se encaixava. Visto isso, foi necessária uma grande reformulação do projeto, mudando layout externo, layout interna e capacidade do banco como um todo. Apesar de todas as dificuldades, o projeto foi entregue e fabricado em tempo recorde e adequado ao regulamento da competição de 2022.'
+      },
+      {
+        type: 'title',
+        content: 'MECÂNICA'
+      },
+      {
+        type: 'subsystem',
+        content: 'TRANSMISSÃO'
+      },
+      {
+        type: 'image',
+        content: ['POWERTRAIN.png']
+      },
+      {
+        type: 'text',
+        content:
+          'O foco base para a transmissão 2019 foi aumentar a confiabilidade e a eficiência do sistema, bem como otimizar o dimensionamento das peças. Falhas estruturais e de fabricação foram corrigidas, a fim de reduzir vibrações e evitar desgaste acentuado do sistema. Também foi possível reduzir a massa e a inércia rotacional dos componentes, tanto pela otimização estrutural, quanto pela migração para o uso de juntas e semieixos de projeto próprio. Em paralelo, deu-se início aos estudos dos efeitos da fadiga em componentes mecânicos, visando alicerçar o desenvolvimento de uma metodologia de dimensionamento de peças mais precisa e condizente com as aplicações dos protótipos da equipe.'
+      },
+      {
+        type: 'subsystem',
+        content: 'ESTRUTURAS'
+      },
+      {
+        type: 'image',
+        content: ['CHASSI.png']
+      },
+      {
+        type: 'text',
+        content:
+          'Entre os principais avanços do projeto em relação ao ano anterior se destaca o melhor dimensionamento das juntas soldadas e parafusadas, realizado de acordo com normas nacionais vigentes, garantindo maior confiabilidade ao veículo e criando as bases para redução das dimensões das fixações em projetos futuros. Em relação ao chassi propriamente, maior robustez e rigidez torcional foram alcançadas, de modo a suportar e distribuir melhor as cargas impostas, permitindo maior controle da distribuição de transferência lateral de carga. Além disso, o seu processo de fabricação foi mais acurado, através do uso de um novo tipo de gabarito – planos cortados a laser – aumentando a correspondência entre o projetado e o fabricado. Por último, foram feitos ensaios, testes e aquisições de dados visando assegurar a qualidade da estrutura e validar as simulações computacionais realizadas na fase inicial.'
+      },
+      {
+        type: 'subsystem',
+        content: 'AERODINÂMICA'
+      },
+      {
+        type: 'image',
+        content: ['AERO.png']
+      },
+      {
+        type: 'text',
+        content:
+          'O subsistema de aerodinâmica tem como responsabilidade potencializar os resultados dos projetos da equipe por meio do uso inteligente do escoamento, proporcionando a maior redução de arrasto possível. O pacote aerodinâmico é composto pelo projeto de uma asa, de um bico, de uma carenagem traseira e de um difusor. Na temporada atual, reforçamos a geração efetiva de downforce, tendo em vista a importância do desempenho em curvas na competição.'
+      },
+      {
+        type: 'subsystem',
+        content: 'DIREÇÃO'
+      },
+      {
+        type: 'image',
+        content: ['DIRECAO.png']
+      },
+      {
+        type: 'text',
+        content:
+          'A direção 2019 teve um foco maior no aumento da responsividade do sistema, a fim de torná-lo mais direto. Para isso, reduziu-se a razão de esterçamento de 5:1 para 3,5:1 e desenvolveu-se um sistema de redução de folga da coluna, tornando o veículo mais ágil em mudanças de trajetória. Ainda, conferiu-se ajustabilidade ao sistema através de steering arms substituíveis e obteve-se uma redução de massa de 25% através do redesenho dos componentes já existentes.'
+      },
+      {
+        type: 'subsystem',
+        content: 'SUSPENSÃO'
+      },
+      {
+        type: 'image',
+        content: ['SUSP-DIANT.png', 'SUSP-TRAS.png']
+      },
+      {
+        type: 'text',
+        content:
+          'Em 2019 otimizou-se o projeto cinemático da suspensão, visando alcançar um ganho de cambagem mais adequado; investiu-se novamente em ajustabilidade, com o desenvolvimento de barras estabilizadoras do tipo faca giratória, consideradas mais versáteis, e de camber plates, capazes de proporcionar diferentes ajustes de cambagem; e reduziu-se a massa não-suspensa, através do emprego de alumínio aeronáutico nas mangas de eixo e cubos de roda, contribuindo para a aderência dos pneus mediante irregularidades da pista e para a redução da inércia rotacional do veículo e das partes girantes.'
+      },
+      {
+        type: 'subsystem',
+        content: 'FREIOS'
+      },
+      {
+        type: 'image',
+        content: ['FREIO.png']
+      },
+      {
+        type: 'text',
+        content:
+          'O projeto do sistema de freios do NK-319 teve três focos principais: validação do comportamento teórico do sistema, redução de massa de peças julgadas superdimensionadas e análises mais precisas das cargas mecânicas e térmicas impostas aos componentes. Sensores de pressão e temperatura foram empregados, possibilitando avaliar as pressões nas linhas hidráulicas em diferentes condições de frenagem e a necessidade de arrefecimento dos discos de freio, validando o projeto. Por fim, através de otimizações topológicas, 23% da massa do sistema foi reduzida.'
+      }
+    ]
+  },
   NK422: {
     year: 2022,
     sectionStart: {
@@ -46,7 +214,7 @@ export const prototiposProvider: {
         { name: 'enduro' }
       ],
       text: [
-        'Sendo o terceiro carro fabricado, melhorou os índices de eficiência e autonomia da equipe e conseguiu uma melhora significativa no desempenho em pista, em razão do projeto dinâmico mais refinado, menores perdas mecânicas e soluções aerodinâmicas inovadoras.',
+        'TEM QUE MUDAR O TEXTO.',
         'Lançado em 31 de outubro de 2019, foi à competição cheio de expectativas pela surpreendente segunda colocação no ano anterior. O grande empenho da equipe durante o ano levou ao primeiro lugar na prova de projeto, porém o protótipo enfrentou alguns imprevistos nas provas dinâmicas e assim, conquistou a quinta colocação geral.'
       ]
     },
@@ -683,7 +851,7 @@ export const years = [
     description:
       'O grande empenho da equipe durante o ano levou ao primeiro lugar na prova de projeto.',
     to: '/prototipos/NK319',
-    initialYear: true,
+    initialYear: false,
     time: '4,4s',
     velocity: '330km/h',
     potency: '23kW'
@@ -706,6 +874,17 @@ export const years = [
     description: 'Carro em desenvolvimento.',
     to: '/prototipos/NK420',
     initialYear: false,
+    time: '-',
+    velocity: '-',
+    potency: '-'
+  },
+  {
+    year: '2023',
+    car: 'NK523',
+    image: 'NK420.png',
+    description: 'Carro em desenvolvimento.',
+    to: '/prototipos/NK523',
+    initialYear: true,
     time: '-',
     velocity: '-',
     potency: '-'
