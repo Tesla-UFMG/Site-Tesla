@@ -623,6 +623,403 @@ export const equipeProvider: {
       }
     ]
   },
+  2019: {
+    captain: {
+      name: 'Pedro Henrique Rosa',
+      imagePath: '',
+      linkedin: 'https://www.linkedin.com/in/pedro-henrique-rosa-gonçalves-b47671209'
+    },
+    sistemas: [
+      {
+        nome: 'ADMINISTRAÇÃO',
+        subsistemas: [
+          {
+            nome: 'Financeiro',
+            members: [
+              {
+                name: 'Karyne Oliveira',
+                role: 'Financeiro',
+                imagePath: '',
+                linkedin: 'https://www.linkedin.com/in/karyne-souza-6b304519a/'
+              },
+              {
+                name: 'Lídia Moreira',
+                role: 'Financeiro',
+                imagePath: '',
+                linkedin: 'https://www.linkedin.com/in/lidiamoreirabarbosa/'
+              }
+            ]
+          },
+          {
+            nome: 'Gestão',
+            members: [
+              {
+                name: 'Matheus Felicetti',
+                role: 'Vice-Capitão',
+                imagePath: '',
+                linkedin:
+                  'https://www.linkedin.com/in/matheus-felicetti-de-azevedo-roland-628a35145/'
+              },
+              {
+                name: 'Bernardo Nunes',
+                role: 'Diretor Administrativo',
+                imagePath: '',
+                linkedin:
+                  'https://www.linkedin.com/in/bernardo-bernardes-269182193/'
+              }
+            ]
+          },
+          {
+            nome: 'Marketing',
+            members: [
+              {
+                name: 'Nuno Karam',
+                role: 'Marketing',
+                imagePath: '',
+                linkedin: 'https://www.linkedin.com/in/nunokaram/'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        nome: 'ELETRÔNICA',
+        subsistemas: [
+          {
+            nome: 'Direção',
+            members: [
+              {
+                name: 'Henrique Guimarães',
+                role: 'Diretor Eletrônica',
+                imagePath: '',
+                linkedin:
+                  'https://www.linkedin.com/in/henrique-guimar%C3%A3es-2422a515b/'
+              }
+            ]
+          },
+          {
+            nome: 'Aquisição',
+            members: [
+              {
+                name: 'Amanda Caixeta',
+                role: 'Aquisição',
+                imagePath: '',
+                linkedin:
+                  'https://www.linkedin.com/in/amanda-guimaraes-caixeta-silva/'
+              },
+              {
+                name: 'Breno Gomes',
+                role: 'Aquisição',
+                imagePath: '',
+                linkedin: 'https://www.linkedin.com/in/breno-gomes-63803b209/'
+              },
+              {
+                name: 'João Oliveira',
+                role: 'Aquisição',
+                imagePath: '',
+                linkedin: 'https://www.linkedin.com/in/joao-oliveira-39a730201/'
+              },
+              {
+                name: 'Nathália Gonçalves',
+                role: 'Aquisição',
+                imagePath: '',
+                linkedin:
+                  'https://www.linkedin.com/in/nathalia-cristina-gon%C3%A7alves-costa-32614ba2'
+              }
+            ]
+          },
+          {
+            nome: 'Baterias',
+            members: [
+              {
+                name: 'Heuller Augusto',
+                role: 'Baterias',
+                imagePath: '',
+                linkedin:
+                  'https://www.linkedin.com/in/heuller-augusto-4b9024154/'
+              },
+              {
+                name: 'Rodolfo Lessa',
+                role: 'Baterias',
+                imagePath: '',
+                linkedin: ''
+              },
+              {
+                name: 'Wellington Martins',
+                role: 'Baterias',
+                imagePath: '',
+                linkedin: ''
+              }
+            ]
+          },
+          {
+            nome: 'Controle',
+            members: [
+              {
+                name: 'Dominique Auer',
+                role: 'Controle',
+                imagePath: '',
+                linkedin: 'https://www.linkedin.com/in/dominiqueauer/'
+              },
+              {
+                name: 'Rodrigo Faria',
+                role: 'Controle',
+                imagePath: '',
+                linkedin: ''
+              },
+              {
+                name: 'Victor Borges',
+                role: 'Controle',
+                imagePath: '',
+                linkedin:
+                  'https://www.linkedin.com/in/victor-freitas-borges-5719551bb/'
+              },
+              {
+                name: 'Victor Moraes',
+                role: 'Controle',
+                imagePath: '',
+                linkedin: 'https://www.linkedin.com/in/victorjfmoraes/'
+              }
+            ]
+          },
+          {
+            nome: 'Interface',
+            members: [
+              {
+                name: 'David Simon',
+                role: 'Interface',
+                imagePath: '',
+                linkedin: ''
+              },
+              {
+                name: 'Guilherme Amorim',
+                role: 'Interface',
+                imagePath: '',
+                linkedin:
+                  'https://www.linkedin.com/in/guilherme-vinicius-amorim/'
+              },
+              {
+                name: 'Renan Moreira',
+                role: 'Interface',
+                imagePath: '',
+                linkedin: 'https://www.linkedin.com/in/renan-s-moreira/'
+              },
+              {
+                name: 'Virgínia Sátyro',
+                role: 'Interface',
+                imagePath: '',
+                linkedin:
+                  'https://www.linkedin.com/in/virg%C3%ADnia-s%C3%A1tyro-2283a515b/'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        nome: 'MECÂNICA',
+        subsistemas: [
+          {
+            nome: 'Aerodinamica',
+            members: [
+              {
+                name: 'Matthias Novais',
+                role: 'Aerodinamica',
+                imagePath: '',
+                linkedin:
+                  'https://www.linkedin.com/in/matthias-novais-48b881154/'
+              },
+              {
+                name: 'Paulo Vítor Ferreira',
+                role: 'Aerodinamica',
+                imagePath: '',
+                linkedin: ''
+              },
+              {
+                name: 'Rafael Hazaña',
+                role: 'Aerodinamica',
+                imagePath: '',
+                linkedin: 'https://www.linkedin.com/in/rhazana/'
+              }
+            ]
+          },
+          {
+            nome: 'Dinâmica',
+            members: [
+              {
+                name: 'Thiago Jardim',
+                role: 'Diretor Dinâmica',
+                imagePath: '',
+                linkedin: 'https://www.linkedin.com/in/thiago-jardim-62ba4715a/'
+              },
+              {
+                name: 'Nicholas Chavda',
+                role: 'Dinâmica',
+                imagePath: '',
+                linkedin:
+                  'https://www.linkedin.com/in/nicholas-chavda-38a19a1a6/'
+              },
+              {
+                name: 'Nícolas Filla',
+                role: 'Dinâmica',
+                imagePath: '',
+                linkedin: 'https://www.linkedin.com/in/nicolasfilla-91b53115a/'
+              }
+            ]
+          },
+          {
+            nome: 'Direção',
+            members: [
+              
+              {
+                name: 'Marcelle Guimarães',
+                role: 'Diretora Direção',
+                imagePath: '',
+                linkedin:
+                  'https://www.linkedin.com/in/marcelle-guimar%C3%A3es-36951519a/'
+              },
+              {
+                name: 'Marcus Bonifácio',
+                role: 'Diretor Direção',
+                imagePath: '',
+                linkedin: 'www.linkedin.com/in/marcus-bonifácio'
+              },
+              {
+                name: 'João Aguiar',
+                role: 'Direção',
+                imagePath: '',
+                linkedin:
+                  'https://www.linkedin.com/in/jo%C3%A3opedroamaralaguiar/'
+              }
+            ]
+          },
+          {
+            nome: 'Estruturas',
+            members: [
+              {
+                name: 'Tainá de Jesus',
+                role: 'Diretor Estruturas',
+                imagePath: '',
+                linkedin: ''
+              },
+              {
+                name: 'David Leite',
+                role: 'Estruturas',
+                imagePath: '',
+                linkedin: 'https://www.linkedin.com/in/davidgoncalvesbleite/'
+              },
+              {
+                name: 'Rafael Silluzio',
+                role: 'Estruturas',
+                imagePath: '',
+                linkedin:
+                  'https://www.linkedin.com/in/rafael-silluzio-60309717a/'
+              }
+            ]
+          },
+          {
+            nome: 'Freios',
+            members: [
+              {
+                name: 'Gabriel Fraga',
+                role: 'Freios',
+                imagePath: '',
+                linkedin: ''
+              },
+              {
+                name: 'Lucas Souza',
+                role: 'Freios',
+                imagePath: '',
+                linkedin: 'https://www.linkedin.com/in/lucasfelipesouza/'
+              }
+            ]
+          },
+          {
+            nome: 'Simulação',
+            members: [
+              {
+                name: 'Luiz Camargos',
+                role: 'Simulação',
+                imagePath: '',
+                linkedin: 'https://www.linkedin.com/in/luizcamargos/'
+              }
+            ]
+          },
+          {
+            nome: 'Suspensão',
+            members: [
+              {
+                name: 'Gabriel Papotti',
+                role: 'Suspensão',
+                imagePath: '',
+                linkedin: 'https://www.linkedin.com/in/gabrielpmoura/'
+              },
+              {
+                name: 'Heitor Cantão',
+                role: 'Suspensão',
+                imagePath: '',
+                linkedin: 'https://www.linkedin.com/in/heitorcantao/'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        nome: 'POWERTRAIN',
+        subsistemas: [
+          {
+            nome: 'Direção',
+            members: [
+              {
+                name: 'Kaique Fernandes',
+                role: 'Diretor Powertrain',
+                imagePath: '',
+                linkedin:
+                  'https://www.linkedin.com/in/kaique-martins-fernandes/'
+              }
+            ]
+          },
+          {
+            nome: 'Acumulador',
+            members: [
+              {
+                name: 'Caroline Melo',
+                role: 'Acumulador',
+                imagePath: '',
+                linkedin:
+                  'https://www.linkedin.com/in/caroline-oliveira-melo-1a1656197/'
+              },
+              {
+                name: 'Gabriel Gonçalves',
+                role: 'Acumulador',
+                imagePath: '',
+                linkedin:
+                  'https://www.linkedin.com/in/gabriel-gon%C3%A7alves-555a87191/'
+              }
+            ]
+          },
+          {
+            nome: 'Transmissão',
+            members: [
+              {
+                name: 'Arthur Brôndolo',
+                role: 'Transmissão',
+                imagePath: '',
+                linkedin:
+                  'https://www.linkedin.com/in/arthur-silva-br%C3%B4ndolo-7515791a8/'
+              },
+              {
+                name: 'Lucas Marinho',
+                role: 'Transmissão',
+                imagePath: '',
+                linkedin:
+                  'https://www.linkedin.com/in/lucas-pereira-marinho-3256561a7/'
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
   2023: {
     captain: {
       name: 'Eduardo Fujii',
