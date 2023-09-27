@@ -165,7 +165,7 @@ const CapitainUnstyled = ({
       </div>
 
       <div className="info-wrapper">
-        <h3>CAPTIÃO</h3>
+        <h3>CAPITÃO</h3>
         <h6>{year}</h6>
         <p>{name}</p>
       </div>
