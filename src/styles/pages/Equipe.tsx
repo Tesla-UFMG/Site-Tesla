@@ -268,7 +268,7 @@ export const Captain = styled(CapitainUnstyled)`
   }
 `
 
-export const SectorName = styled.h3`
+export const SystemName = styled.h3`
   font-size: 1.5rem;
   margin: 24px 0;
 
@@ -283,6 +283,24 @@ export const SectorName = styled.h3`
 
   @media ${props => props.theme.breakpoints.laptop} {
     font-size: 4rem;
+  }
+`
+
+export const SubsystemName = styled.h4`
+  font-size: 1.2rem;
+  margin: 24px 0;
+
+  @media ${props => props.theme.breakpoints.mobileL} {
+    font-size: 1.7rem;
+  }
+
+  @media ${props => props.theme.breakpoints.tablet} {
+    font-size: 2rem;
+    margin: 32px 0;
+  }
+
+  @media ${props => props.theme.breakpoints.laptop} {
+    font-size: 3rem;
   }
 `
 

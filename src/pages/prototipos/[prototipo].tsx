@@ -33,14 +33,15 @@ import {
   Title
 } from '../../styles/pages/Prototipos'
 
-type Prototipos = 'NK422' | 'NK319' | 'NK218' | 'Kayran'
+type Prototipos = 'NK523' | 'NK422' | 'NK319' | 'NK218' | 'Kayran'
 
 export async function getStaticPaths() {
   const paths = [
     { params: { prototipo: 'Kayran' } },
     { params: { prototipo: 'NK218' } },
     { params: { prototipo: 'NK319' } },
-    { params: { prototipo: 'NK422' } }
+    { params: { prototipo: 'NK422' } },
+    { params: { prototipo: 'NK523' } }
   ]
   return { paths: paths || [], fallback: false }
 }

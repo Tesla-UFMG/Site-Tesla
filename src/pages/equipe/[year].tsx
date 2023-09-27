@@ -18,8 +18,9 @@ import {
   SectionContent,
   SectionStartContent,
   SectionVideoContent,
-  SectorName,
+  SubsystemName,
   Subtitle,
+  SystemName,
   Title,
   VideoWrapper
 } from '../../styles/pages/Equipe'
@@ -54,6 +55,8 @@ const EquipeAno: React.FC = () => {
 
   const { toggleColor } = useHeaderContext()
   const { elementRef: sectionStartRef, isOnScreen } = useIsOnScreen(0.01)
+
+  console.log(team)
 
   useEffect(() => {
     toggleColor()
@@ -92,7 +95,36 @@ const EquipeAno: React.FC = () => {
                 imagePath={team.captain.imagePath}
               />
             </a>
-            {team.members.map(sector => {
+            {team.sistemas.map(system => {
+              return (
+                <>
+                  <SystemName>{system.nome}</SystemName>
+                  {system.subsistemas.map(subsystem => {
+                    return (
+                      <>
+                        <SubsystemName>{subsystem.nome}</SubsystemName>
+                        <MemberWrapper>
+                          {subsystem.members.map((member, memberIndex) => {
+                            return (
+                              <a href={member.linkedin} target="_blank">
+                                <Member
+                                  key={memberIndex}
+                                  name={member.name}
+                                  role={member.role}
+                                  imagePath={member.imagePath}
+                                  year={year as string}
+                                />
+                              </a>
+                            )
+                          })}
+                        </MemberWrapper>
+                      </>
+                    )
+                  })}
+                </>
+              )
+            })}
+            {/* {team.members.map(sector => {
               return (
                 <>
                   <SectorName>{sector.setor}</SectorName>
@@ -113,7 +145,7 @@ const EquipeAno: React.FC = () => {
                   </MemberWrapper>
                 </>
               )
-            })}
+            })} */}
           </SectionContent>
         </Section>
 
