@@ -31,7 +31,8 @@ export const headerOptionsProvider: Array<{
       { label: '2017', to: '/equipe/2017' }
     ]
   },
-  { label: 'Parceiros', to: '/parceiros' }
+  { label: 'Parceiros', to: '/parceiros' },
+  { label: 'Contato', to: '/contato' }
 ]
 
 export const siderbarOptionsProvider = [
@@ -41,6 +42,7 @@ export const siderbarOptionsProvider = [
   { label: 'Parceiros', to: '/parceiros' },
   { label: 'A competição', to: '/competicao' },
   { label: 'Galeria', to: '/galeria' },
-  { label: 'Rollouts', to: '/rollouts' }
+  { label: 'Rollouts', to: '/rollouts' },
+  { label: 'Contato', to: '/contato' }
   //  { label: 'Loja', to: '/loja' }
 ]
