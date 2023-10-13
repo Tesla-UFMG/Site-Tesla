@@ -74,3 +74,14 @@ export const InputText = styled.input`
   padding: 5px;
   justify-content: flex-end;
 `
+
+export const TextArea = styled.textarea`
+  width: 100%;
+  font-size: 1.2rem;
+  padding: 5px;
+  resize: none;
+`
+export const ErrorMessage = styled.p`
+  font-size: 1.2rem;
+  color: red;
+`
