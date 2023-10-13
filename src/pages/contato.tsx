@@ -1,13 +1,15 @@
 import Head from 'next/head'
 
 import {
+  ContactButton,
   Container,
   FormContent,
+  InputRow,
+  InputText,
   Section,
   SectionContent,
   Title
 } from '../styles/pages/Contato'
-import { Button } from '../components/Button'
 
 const Contato: React.FC = () => {
   return (
@@ -20,14 +22,17 @@ const Contato: React.FC = () => {
           <SectionContent>
             <Title>CONTATO</Title>
             <FormContent>
-              <div style={{ display: 'flex' }}>
-                <input type="text" placeholder="Nome" />
-                <input type="text" placeholder="Email" />
-              </div>
-              <input type="text" placeholder="Assunto" />
-              <input type="text" placeholder="Mensagem" />
-
-              <Button>ENVIAR</Button>
+              <InputRow>
+                <InputText type="text" placeholder="Nome" />
+                <InputText type="text" placeholder="Email" />
+              </InputRow>
+              <InputRow>
+                <InputText type="text" placeholder="Assunto" />
+              </InputRow>
+              <InputRow>
+                <InputText type="text" placeholder="Mensagem" />
+              </InputRow>
+              <ContactButton>ENVIAR</ContactButton>
             </FormContent>
           </SectionContent>
         </Section>

@@ -49,4 +49,28 @@ export const Title = styled.h1`
   }
 `
 
-export const FormContent = styled.form``
+export const FormContent = styled.form`
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+`
+
+export const ContactButton = styled.button`
+  cursor: pointer;
+  font-size: 1.2rem;
+  padding: 10px 100px;
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+  border: none;
+`
+export const InputRow = styled.div`
+  display: flex;
+`
+
+export const InputText = styled.input`
+  width: 100%;
+  font-size: 1.2rem;
+  padding: 5px;
+  justify-content: flex-end;
+`
