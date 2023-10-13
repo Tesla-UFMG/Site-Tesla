@@ -50,14 +50,16 @@ export const Title = styled.h1`
 `
 
 export const FormContent = styled.form`
-  display: flex;
   flex-direction: column;
   row-gap: 10px;
 `
 
 export const ContactButton = styled.button`
+  width: 30%;
+  float: right;
+  margin-top: 10px;
   cursor: pointer;
-  font-size: 1.2rem;
+  font-size: 1.4rem;
   padding: 10px 100px;
   background-color: black;
   color: white;
@@ -66,19 +68,21 @@ export const ContactButton = styled.button`
 `
 export const InputRow = styled.div`
   display: flex;
+  column-gap: 10px;
+  margin-top: 10px;
 `
 
 export const InputText = styled.input`
   width: 100%;
   font-size: 1.2rem;
-  padding: 5px;
+  padding: 5px 5px 5px 15px;
   justify-content: flex-end;
 `
 
 export const TextArea = styled.textarea`
   width: 100%;
   font-size: 1.2rem;
-  padding: 5px;
+  padding: 5px 5px 5px 15px;
   resize: none;
 `
 export const ErrorMessage = styled.p`

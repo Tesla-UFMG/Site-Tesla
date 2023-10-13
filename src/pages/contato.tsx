@@ -93,7 +93,7 @@ const Contato: React.FC = () => {
               <InputRow>
                 <TextArea
                   placeholder="Mensagem"
-                  rows={5}
+                  rows={7}
                   onChange={e => setMensagem(e.target.value)}
                   required
                 />
