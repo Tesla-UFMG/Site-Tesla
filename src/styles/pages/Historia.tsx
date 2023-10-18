@@ -133,6 +133,7 @@ export const ContentText = styled.p`
 
   font-size: 1rem;
   line-height: 1.5;
+  text-align: justify;
 
   @media ${props => props.theme.breakpoints.tablet} {
     font-size: 1.125rem;

@@ -169,7 +169,7 @@ const Prototipo: React.FC = (props: PrototipoData) => {
 
         {props.subsystems && (
           <Section id="content">
-            <SectionContent>
+            <SectionContent noPadding>
               {props.subsystems.map((content, i) => {
                 if (content.type === 'title')
                   return <ContentTitle key={i}>{content.content}</ContentTitle>

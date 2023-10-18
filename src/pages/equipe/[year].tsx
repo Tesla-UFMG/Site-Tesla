@@ -56,8 +56,6 @@ const EquipeAno: React.FC = () => {
   const { toggleColor } = useHeaderContext()
   const { elementRef: sectionStartRef, isOnScreen } = useIsOnScreen(0.01)
 
-  console.log(team)
-
   useEffect(() => {
     toggleColor()
   }, [isOnScreen])

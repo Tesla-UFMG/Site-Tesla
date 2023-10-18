@@ -651,6 +651,7 @@ export const ContentTitle = styled.h2`
   line-height: 1;
   border-bottom: 6px solid ${props => props.theme.colors.primary};
   margin: 0 auto 24px;
+  padding-top: 80px;
 
   text-align: center;
 
@@ -678,6 +679,7 @@ export const ContentText = styled.p`
 
   color: ${props => props.theme.colors.text};
 
+  text-align: justify;
   font-size: 1rem;
   line-height: 1.5;
 
