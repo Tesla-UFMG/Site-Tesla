@@ -32,6 +32,13 @@ export const SectionStartContent = styled.div`
 
   text-align: center;
 
+  padding:8px;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(8px);
+  border: 1px solid rgba(255, 255, 255, 0.1.);
+  border-radius:8px;
+  box-shadow: 0 0 40px rgba(8, 7, 16, 0.6);
+
   color: ${props => props.theme.colors.white};
 
   @media ${props => props.theme.breakpoints.tablet} {
@@ -56,6 +63,7 @@ export const SectionStartContent = styled.div`
 export const Title = styled.h1`
   font-size: 2rem;
   line-height: 1;
+  
 
   @media ${props => props.theme.breakpoints.tablet} {
     font-size: 3rem;

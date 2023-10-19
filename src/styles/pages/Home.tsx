@@ -25,7 +25,13 @@ export const ContentWrapper = styled.div<{
   flex-direction: column;
   align-items: center;
   justify-content: center;
-
+  padding: 8px;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(8px);
+  border: 1px solid rgba(255, 255, 255, 0.1.);
+  box-shadow: 0 0 40px rgba(8, 7, 16, 0.6);
+  
   margin-top: ${props => props.marginTop ?? 0};
 
   width: 100%;

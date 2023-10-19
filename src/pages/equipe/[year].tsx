@@ -48,6 +48,23 @@ export const getStaticProps: GetStaticProps = async context => {
   }
 }
 
+// Função para contar o número total de membros de um ano específico
+function countTotalMembersOfYear(equipeProvider: any, year: string): number {
+  let totalMembers = 0;
+
+  if (equipeProvider.hasOwnProperty(year)) {
+    const team = equipeProvider[year];
+    for (const system of team.sistemas) {
+      for (const subsystem of system.subsistemas) {
+        totalMembers += subsystem.members.length;
+      }
+    }
+  }
+
+  return totalMembers;
+}
+
+
 const EquipeAno: React.FC = () => {
   const router = useRouter()
   const { year } = router.query as { year: Years }
@@ -57,6 +74,11 @@ const EquipeAno: React.FC = () => {
   const { elementRef: sectionStartRef, isOnScreen } = useIsOnScreen(0.01)
 
   console.log(team)
+  console.log(year)
+
+  const totalMembers = countTotalMembersOfYear(equipeProvider, year);
+  const numberOfSystems = team.sistemas.length;
+
 
   useEffect(() => {
     toggleColor()
@@ -70,19 +92,12 @@ const EquipeAno: React.FC = () => {
       <Container>
         <Section ref={sectionStartRef} withBackground>
           <SectionStartContent>
-            <Title>CONHEÇA OS MEMBROS</Title>
+            <Title>MEMBROS DE {year}</Title>
             <Subtitle>
               Conheça os alunos que fazem esse projeto acontecer, distribuídos
-              em 5 Sistemas, a equipe atualmente conta com 44 membros.
+              em {numberOfSystems} Sistemas, a equipe atualmente conta com {totalMembers} membros.
             </Subtitle>
           </SectionStartContent>
-
-          <ScrollArrow to="video" direction="down" color="black" />
-        </Section>
-        <Section id="video">
-          <SectionVideoContent>
-            <VideoWrapper videoURL="https://www.youtube.com/embed/BWegfyI_eoY" />
-          </SectionVideoContent>
 
           <ScrollArrow to="content" direction="down" color="black" />
         </Section>
