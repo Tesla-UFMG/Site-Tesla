@@ -40,21 +40,21 @@ export const equipeProvider: {
               },
               {
                 name: 'Leonardo Salim',
-                role: 'Gestão geral',
+                role: 'Membro',
                 imagePath: '',
                 linkedin:
                   'https://www.linkedin.com/in/leonardo-marcos-gomes-salim-616a23209/'
               },
               {
                 name: 'Lígia Lamounier',
-                role: 'Gestão geral',
+                role: 'Membro',
                 imagePath: '',
                 linkedin:
                   'https://www.linkedin.com/in/l%C3%ADgia-bittencourt-173ba992/'
               },
               {
                 name: 'Natália da Mata',
-                role: 'Gestão de recursos',
+                role: 'Membro',
                 imagePath: '',
                 linkedin: 'https://www.linkedin.com/in/natalia-da-mata-c-m/'
               }
@@ -65,13 +65,13 @@ export const equipeProvider: {
             members: [
               {
                 name: 'Allan Santos',
-                role: 'Marketing',
+                role: 'Membro',
                 imagePath: '',
                 linkedin: 'https://www.linkedin.com/in/allansaints/'
               },
               {
                 name: 'Pedro Girundi',
-                role: 'Marketing',
+                role: 'Membro',
                 imagePath: '',
                 linkedin: 'https://www.linkedin.com/in/pedrogirundi/'
               }
@@ -87,26 +87,26 @@ export const equipeProvider: {
             members: [
               {
                 name: 'Eric Drumond',
-                role: 'Battery Management System',
+                role: 'Membro',
                 imagePath: '',
                 linkedin: 'https://www.linkedin.com/in/eric-drumond/'
               },
               {
                 name: 'Mateus Simões',
-                role: 'Battery Management System',
+                role: 'Membro',
                 imagePath: '',
                 linkedin: 'https://www.linkedin.com/in/mateus-simoes/'
               },
               {
                 name: 'Patrick Garcia',
-                role: 'Battery Management System',
+                role: 'Membro',
                 imagePath: '',
                 linkedin:
                   'https://www.linkedin.com/in/patrick-garcia-vilela-15a971a7/'
               },
               {
                 name: 'Pedro Ivan',
-                role: 'Battery Management System',
+                role: 'Membro',
                 imagePath: '',
                 linkedin:
                   'https://www.linkedin.com/in/pedro-ivan-fernandes-99b650152/'
@@ -118,39 +118,39 @@ export const equipeProvider: {
             members: [
               {
                 name: 'Alexandre Carvalho',
-                role: 'Control System',
+                role: 'Membro',
                 imagePath: '',
                 linkedin:
                   'https://www.linkedin.com/in/alexandre-carvalho-97351282/'
               },
               {
                 name: 'Filipe Raso',
-                role: 'Control System',
+                role: 'Membro',
                 imagePath: '',
                 linkedin: 'https://www.linkedin.com/in/filiperaso/'
               },
               {
                 name: 'Guilherme Leles',
-                role: 'Control System',
+                role: 'Membro',
                 imagePath: '',
                 linkedin:
                   'https://www.linkedin.com/in/guilherme-henrique-de-almeida-leles-a13159128/'
               },
               {
                 name: 'Irving Martins',
-                role: 'Control System',
+                role: 'Membro',
                 imagePath: '',
                 linkedin: 'https://www.linkedin.com/in/irvingmrtn/'
               },
               {
                 name: 'Kayran Gandhi',
-                role: 'Control System',
+                role: 'Membro',
                 imagePath: '',
                 linkedin: 'https://www.linkedin.com/in/kayran/'
               },
               {
                 name: 'Leandro Daros',
-                role: 'Control System',
+                role: 'Membro',
                 imagePath: '',
                 linkedin: 'https://www.linkedin.com/in/leandrodaros/'
               }
@@ -166,13 +166,13 @@ export const equipeProvider: {
             members: [
               {
                 name: 'Ana Rangel',
-                role: 'Aerodinâmica',
+                role: 'Membro',
                 imagePath: '',
                 linkedin: 'https://www.linkedin.com/in/anaflaviarangel/'
               },
               {
                 name: 'Lucas Sampaio',
-                role: 'Aerodinâmica',
+                role: 'Membro',
                 imagePath: '',
                 linkedin: 'https://www.linkedin.com/in/lucas-souza-sampaio/'
               }
@@ -183,26 +183,26 @@ export const equipeProvider: {
             members: [
               {
                 name: 'Bernardo Batista',
-                role: 'Chassi',
+                role: 'Membro',
                 imagePath: '',
                 linkedin: 'https://www.linkedin.com/in/bernardocaetanobatista/'
               },
               {
                 name: 'Igor Assis',
-                role: 'Chassi',
+                role: 'Membro',
                 imagePath: '',
                 linkedin: 'https://www.linkedin.com/in/igor-assis-torres/'
               },
               {
                 name: 'Italo Alkimim',
-                role: 'Chassi',
+                role: 'Membro',
                 imagePath: '',
                 linkedin:
                   'https://www.linkedin.com/in/italo-de-alkmim-chaves-a46753121/'
               },
               {
                 name: 'Matheus Felicetti',
-                role: 'Chassi',
+                role: 'Membro',
                 imagePath: '',
                 linkedin:
                   'https://www.linkedin.com/in/matheus-felicetti-de-azevedo-roland-628a35145/'
@@ -214,13 +214,13 @@ export const equipeProvider: {
             members: [
               {
                 name: 'Gabriel Leite',
-                role: 'Direção',
+                role: 'Membro',
                 imagePath: '',
                 linkedin: 'https://www.linkedin.com/in/gcleite'
               },
               {
                 name: 'Thiago Ladeira',
-                role: 'Direção',
+                role: 'Membro',
                 imagePath: '',
                 linkedin:
                   'https://www.linkedin.com/in/thiago-ladeira-06082416b/'
@@ -371,20 +371,20 @@ export const equipeProvider: {
             members: [
               {
                 name: 'Eric Drumond',
-                role: 'Battery Management System',
+                role: 'Membro',
                 imagePath: '',
                 linkedin: 'https://www.linkedin.com/in/eric-drumond/'
               },
               {
                 name: 'Henrique Guimarães',
-                role: 'Battery Management System',
+                role: 'Membro',
                 imagePath: '',
                 linkedin:
                   'https://www.linkedin.com/in/henrique-guimar%C3%A3es-2422a515b/'
               },
               {
                 name: 'Virgínia Sátyro',
-                role: 'Battery Management System',
+                role: 'Membro',
                 imagePath: '',
                 linkedin:
                   'https://www.linkedin.com/in/virg%C3%ADnia-s%C3%A1tyro-2283a515b'
@@ -478,7 +478,7 @@ export const equipeProvider: {
             members: [
               {
                 name: 'Everton Vargas',
-                role: 'Direção',
+                role: 'Membro',
                 imagePath: '',
                 linkedin: 'https://www.linkedin.com/in/evertonvargas/'
               },
@@ -540,26 +540,26 @@ export const equipeProvider: {
             members: [
               {
                 name: 'Matthias Novais',
-                role: 'Aerodinâmica',
+                role: 'Membro',
                 imagePath: '',
                 linkedin:
                   'https://www.linkedin.com/in/matthias-novais-48b881154/'
               },
               {
                 name: 'Gustavo Felix',
-                role: 'Chassi',
+                role: 'Membro',
                 imagePath: '',
                 linkedin: 'https://www.linkedin.com/in/gfonetwork/'
               },
               {
                 name: 'Ian Rodrigues',
-                role: 'Chassi',
+                role: 'Membro',
                 imagePath: '',
                 linkedin: 'https://www.linkedin.com/in/ianrodriguesb/'
               },
               {
                 name: 'Igor Machado',
-                role: 'Chassi',
+                role: 'Membro',
                 imagePath: '',
                 linkedin: 'https://www.linkedin.com/in/igormfatima/'
               },
@@ -1218,26 +1218,26 @@ export const equipeProvider: {
             members: [
               {
                 name: 'Ana Clara',
-                role: 'Aerodinâmica',
+                role: 'Membro',
                 imagePath: '',
                 linkedin: 'https://www.linkedin.com/in/acnoronha/'
               },
               {
                 name: 'Eduardo Fujii',
-                role: 'Aerodinâmica',
+                role: 'Membro',
                 imagePath: '',
                 linkedin: ''
               },
               {
                 name: 'Maria Luiza Scoralick',
-                role: 'Aerodinâmica',
+                role: 'Membro',
                 imagePath: '',
                 linkedin:
                   'https://www.linkedin.com/in/malu-scoralick-08b5b214b/'
               },
               {
                 name: 'Milena Vasconcelos',
-                role: 'Aerodinâmica',
+                role: 'Membro',
                 imagePath: '',
                 linkedin: 'https://www.linkedin.com/in/milena-ma-vasconcelos/'
               }
@@ -1634,20 +1634,20 @@ export const equipeProvider: {
               },
               {
                 name: 'Caio Queiroga',
-                role: 'Aerodinâmica',
+                role: 'Membro',
                 imagePath: '',
                 linkedin: ''
               },
               {
                 name: 'Eduardo Fujii',
-                role: 'Aerodinâmica',
+                role: 'Membro',
                 imagePath: '',
                 linkedin:
                   'https://www.linkedin.com/in/eduardo-henrique-fernandes-fujii-062a2a182/'
               },
               {
                 name: 'Matheus Godinho',
-                role: 'Aerodinâmica',
+                role: 'Membro',
                 imagePath: '',
                 linkedin: ''
               }
@@ -2066,19 +2066,19 @@ export const equipeProvider: {
               },
               {
                 name: 'Luísa Vilela',
-                role: 'Aerodinâmica',
+                role: 'Membro',
                 imagePath: '',
                 linkedin: 'https://www.linkedin.com/'
               },
               {
                 name: 'Júlia Viegas',
-                role: 'Aerodinâmica',
+                role: 'Membro',
                 imagePath: 'image-15.jpg',
                 linkedin: 'https://www.linkedin.com/'
               },
               {
                 name: 'Lucas Telles',
-                role: 'Aerodinâmica',
+                role: 'Membro',
                 imagePath: '',
                 linkedin: 'https://www.linkedin.com/'
               }
