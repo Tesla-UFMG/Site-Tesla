@@ -166,7 +166,7 @@ export const prototiposProvider: {
       {
         type: 'text',
         content:
-          'A direção 2019 teve um foco maior no aumento da responsividade do sistema, a fim de torná-lo mais direto. Para isso, reduziu-se a razão de esterçamento de 5:1 para 3,5:1 e desenvolveu-se um sistema de redução de folga da coluna, tornando o veículo mais ágil em mudanças de trajetória. Ainda, conferiu-se ajustabilidade ao sistema através de steering arms substituíveis e obteve-se uma redução de massa de 25% através do redesenho dos componentes já existentes.'
+          'No projeto de 2023, continuamos o uso do conjunto antigo por viabilidade de fabricação. Além disso, foi desenvolvimento um projeto para o uso de engrenagens cônicas no lugar da junta universal, a fim de eliminar a limitação do ângulo de trabalho da junta.'
       },
       {
         type: 'subsystem',
@@ -179,7 +179,7 @@ export const prototiposProvider: {
       {
         type: 'text',
         content:
-          'Em 2019 otimizou-se o projeto cinemático da suspensão, visando alcançar um ganho de cambagem mais adequado; investiu-se novamente em ajustabilidade, com o desenvolvimento de barras estabilizadoras do tipo faca giratória, consideradas mais versáteis, e de camber plates, capazes de proporcionar diferentes ajustes de cambagem; e reduziu-se a massa não-suspensa, através do emprego de alumínio aeronáutico nas mangas de eixo e cubos de roda, contribuindo para a aderência dos pneus mediante irregularidades da pista e para a redução da inércia rotacional do veículo e das partes girantes.'
+          'No NK 523, o foco foi de redução de massa não suspensa. Para isso reformulamos o projeto das mangas dianteiras, com o objetivo de alívio de massa e redução de concentração de tensões.'
       },
       {
         type: 'subsystem',
@@ -192,7 +192,7 @@ export const prototiposProvider: {
       {
         type: 'text',
         content:
-          'O projeto do sistema de freios do NK-319 teve três focos principais: validação do comportamento teórico do sistema, redução de massa de peças julgadas superdimensionadas e análises mais precisas das cargas mecânicas e térmicas impostas aos componentes. Sensores de pressão e temperatura foram empregados, possibilitando avaliar as pressões nas linhas hidráulicas em diferentes condições de frenagem e a necessidade de arrefecimento dos discos de freio, validando o projeto. Por fim, através de otimizações topológicas, 23% da massa do sistema foi reduzida.'
+          'Nesse projeto de freios, substituímos a linha flexível em sobre para o uso do aeroquip, um material mais flexível que permite melhor adaptabilidade ao chassi.'
       }
     ]
   },

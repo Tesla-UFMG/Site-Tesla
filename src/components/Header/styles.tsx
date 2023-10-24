@@ -21,6 +21,11 @@ export const HeaderContainer = styled(HeaderContainerUnstyled)<{
   height: 70px;
   width: 100%;
 
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(8px);
+  border: 1px solid rgba(255, 255, 255, 0.1.);
+  box-shadow: 0 0 40px rgba(8, 7, 16, 0.6);
+
   color: ${props => props.theme.colors.white};
 
   position: ${props => (props.fixed ? 'fixed' : 'absolute')};
