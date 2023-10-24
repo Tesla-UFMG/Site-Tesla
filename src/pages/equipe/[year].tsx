@@ -50,20 +50,19 @@ export const getStaticProps: GetStaticProps = async context => {
 
 // Função para contar o número total de membros de um ano específico
 function countTotalMembersOfYear(equipeProvider: any, year: string): number {
-  let totalMembers = 0;
+  let totalMembers = 0
 
   if (equipeProvider.hasOwnProperty(year)) {
-    const team = equipeProvider[year];
+    const team = equipeProvider[year]
     for (const system of team.sistemas) {
       for (const subsystem of system.subsistemas) {
-        totalMembers += subsystem.members.length;
+        totalMembers += subsystem.members.length
       }
     }
   }
 
-  return totalMembers;
+  return totalMembers
 }
-
 
 const EquipeAno: React.FC = () => {
   const router = useRouter()
@@ -74,11 +73,6 @@ const EquipeAno: React.FC = () => {
   const { elementRef: sectionStartRef, isOnScreen } = useIsOnScreen(0.01)
 
   console.log(team)
-  console.log(year)
-
-  const totalMembers = countTotalMembersOfYear(equipeProvider, year);
-  const numberOfSystems = team.sistemas.length;
-
 
   useEffect(() => {
     toggleColor()
@@ -95,7 +89,8 @@ const EquipeAno: React.FC = () => {
             <Title>MEMBROS DE {year}</Title>
             <Subtitle>
               Conheça os alunos que fazem esse projeto acontecer, distribuídos
-              em {numberOfSystems} Sistemas, a equipe atualmente conta com {totalMembers} membros.
+              em {numberOfSystems} Sistemas, a equipe atualmente conta com{' '}
+              {totalMembers} membros.
             </Subtitle>
           </SectionStartContent>
 
