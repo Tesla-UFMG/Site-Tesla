@@ -36,7 +36,7 @@ export const SectionContent = styled.div`
 
 export const Title = styled.h1`
   font-size: 2rem;
-  border-bottom: 1px solid ${props => props.theme.colors['gray-600']};
+  border-bottom: 4px solid #4ed840;
 
   margin-bottom: 24px;
 
@@ -61,8 +61,8 @@ export const ContactButton = styled.button`
   cursor: pointer;
   font-size: 1.4rem;
   padding: 10px 100px;
-  background-color: black;
-  color: white;
+  background-color: #4ed840;
+  color: black;
   border-radius: 10px;
   border: none;
 `
