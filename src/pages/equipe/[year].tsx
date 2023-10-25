@@ -69,10 +69,15 @@ const EquipeAno: React.FC = () => {
   const { year } = router.query as { year: Years }
   const team = equipeProvider[year as string]
 
+  const backgroundImageURL = `/assets/images/equipe/background/${year}.jpg` // Caminho para a imagem de background correspondente ao ano
+
   const { toggleColor } = useHeaderContext()
   const { elementRef: sectionStartRef, isOnScreen } = useIsOnScreen(0.01)
 
   console.log(team)
+
+  const totalMembers = countTotalMembersOfYear(equipeProvider, year)
+  const numberOfSystems = team.sistemas.length
 
   useEffect(() => {
     toggleColor()
@@ -84,7 +89,11 @@ const EquipeAno: React.FC = () => {
         <title>Tesla UFMG | Equipe</title>
       </Head>
       <Container>
-        <Section ref={sectionStartRef} withBackground>
+        <Section
+          ref={sectionStartRef}
+          withBackground
+          style={{ backgroundImage: `url(${backgroundImageURL})` }}
+        >
           <SectionStartContent>
             <Title>MEMBROS DE {year}</Title>
             <Subtitle>
