@@ -6,6 +6,7 @@ export const headerOptionsProvider: Array<{
     to: string
   }[]
 }> = [
+  { label: 'Home', to: '/' },
   { label: 'História', to: '/historia' },
   {
     label: 'Protótipos',

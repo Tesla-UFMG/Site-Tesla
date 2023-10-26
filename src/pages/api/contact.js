@@ -30,7 +30,6 @@ export default async function handler(req, res) {
 
   try {
     const data = result.unwrap()
-    console.log(data)
     res.status(201).end()
   } catch (error) {
     console.error(error)

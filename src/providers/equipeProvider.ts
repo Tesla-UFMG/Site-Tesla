@@ -7,6 +7,11 @@ export const equipeProvider: {
     }
     sistemas: {
       nome: string
+      diretor?: {
+        name: string
+        imagePath: string
+        linkedin: string
+      }
       subsistemas: {
         nome: string
         members: {
@@ -1776,6 +1781,11 @@ export const equipeProvider: {
     sistemas: [
       {
         nome: 'ADMINISTRAÇÃO',
+        diretor: {
+          name: 'Matheo Mares',
+          imagePath: '',
+          linkedin: 'https://www.linkedin.com/'
+        },
         subsistemas: [
           {
             nome: 'Desenvolvimento',
@@ -1885,6 +1895,11 @@ export const equipeProvider: {
       },
       {
         nome: 'ELETRÔNICA',
+        diretor: {
+          name: 'Lucas Silveira',
+          imagePath: '',
+          linkedin: 'https://www.linkedin.com/'
+        },
         subsistemas: [
           {
             nome: 'Sistema Trativo',
@@ -2054,6 +2069,11 @@ export const equipeProvider: {
       },
       {
         nome: 'MECÂNICA',
+        diretor: {
+          name: 'Renato Nicolato',
+          imagePath: '',
+          linkedin: 'https://www.linkedin.com/'
+        },
         subsistemas: [
           {
             nome: 'Aerodinâmica',
