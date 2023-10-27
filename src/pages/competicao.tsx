@@ -41,7 +41,7 @@ const Competicao: React.FC = () => {
       <Container>
         <Section ref={sectionStartRef} withBackground>
           <SectionStartContent>
-            <Title>A COMPETIÇÃO</Title>
+            <Title>COMPETIÇÃO</Title>
           </SectionStartContent>
 
           <ScrollArrow to="content" direction="down" color="white" />

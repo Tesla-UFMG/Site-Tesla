@@ -278,77 +278,14 @@ export const historiaProvider: HistoriaProviderInterface = [
         type: 'equipe',
         year: '2020',
         captain: 'Malu',
-        positions: [
-          { position: 1, category: 'projeto' },
-          { position: 5, category: 'custos' },
-          { position: 5, category: 'geral' },
-          { position: 5, category: 'enduro' },
-          { position: 5, category: 'autocross' }
-        ]
-      },
-      {
-        type: 'video',
-        videoURL: 'https://www.youtube.com/embed/-MkqLh-w-Ew'
+        positions: []
       },
       {
         type: 'frase',
-        text: '2019 começa grande. Conseguimos um patrocínio financeiro de peso. Ousamos e iniciamos o desenvolvimento de sistemas que antes julgávamos impossíveis de serem feitos.'
+        text: 'Estamos em construção...'
       },
-      {
-        type: 'text',
-        text: 'Novos componentes e logística de equipe são planejados e todo o protótipo é projetado na expectativa desse investimento. Porém, devido a mudanças ocorridas na empresa patrocinadora, o patrocínio é cancelado e nos vemos com um projeto financeiramente inviável em mãos.'
-      },
-      {
-        type: 'text',
-        text: 'Sabendo do nosso potencial, iniciamos um novo projeto de baixo custo, mantendo a receita do ano anterior, com foco em otimizar ao máximo todos os sistemas. Adotamos frenagem regenerativa, desenvolvemos um pacote aerodinâmico pensado na diminuição do arrasto, otimizamos estruturalmente todos sistemas mecânicos para possibilitar um banco de baterias maior sem aumentar a massa total do veículo e aumentamos a precisão de fabricação. Assim, alcançamos maior eficiência e maior autonomia do protótipo. Além disso, finalmente adquirimos pneus de corrida novos, determinantes para um melhor desempenho dinâmico na competição.'
-      },
-      {
-        type: 'image',
-        imagePath: '2019/prova-design.jpg',
-        legend: 'Prova de Design (projeto)'
-      },
-      {
-        type: 'text',
-        text: 'Somos capazes de antecipar o início da fase de testes e, assim, focar em maiores validações. Testamos o veículo até a última semana e novamente vamos para Piracicaba.'
-      },
-      {
-        type: 'text',
-        text: 'Passamos nas inspeções, conseguimos novamente estar entre os finalistas na prova de projeto, porém, dessa vez, temos problemas na prova de frenagem. E, no esforço para fazer o veículo ser aprovado no Brake Test, a elevada carga emocional dos membros acaba por interferir no trabalho, acarretando novos problemas mecânicos e também elétricos.'
-      },
-      {
-        type: 'image',
-        imagePath: '2019/boxes.jpg',
-        legend: 'Equipe nos boxes da competição'
-      },
-      {
-        type: 'text',
-        text: 'As provas dinâmicas vão se passando enquanto continuamos parados nos boxes realizando a manutenção do veículo. Depois de duas provas já perdidas, quando estamos a dez minutos de se encerrar a prova de Autocross, terminamos o reparo, somos aprovados no teste de frenagem e corremos para a pista com o carro. Porém, entramos na prova logo quando começa a chover e não conseguimos fazer um bom tempo. Ao final da prova, levamos o carro em ritmo acelerado para a final de projeto, que já havia começado.'
-      },
-      {
-        type: 'image',
-        imagePath: '2019/autocross.jpg',
-        legend: 'Prova de Autocross'
-      },
-      {
-        type: 'text',
-        text: 'No dia seguinte, Enduro, a prova dinâmica mais temida. Havíamos testado suficientemente o carro em Belo Horizonte, porém, depois dos problemas que tivemos no dia anterior, não estávamos nada seguros. E nossa intuição estava certa... O carro parou na primeira volta. Mais precisamente, na primeira curva.'
-      },
-      {
-        type: 'text',
-        text: 'Mas a cara de choro dos membros desapareceu rapidamente quando recebemos a notícia de que havíamos ganhado as final de projeto. Tínhamos o melhor projeto de Fórmula SAE Elétrico do Brasil!'
-      },
-      {
-        type: 'text',
-        text: 'Apesar de não termos conseguido mostrar o nosso potencial em pista, o nosso desempenho nas provas estáticas foi tão bom que nos colocou na 5ª colocação geral. Porém, voltamos com a sensação de que essa competição estava incompleta, de que ela ainda não havia acabado...'
-      },
-      {
-        type: 'image',
-        imagePath: '2019/equipe-2019.jpg',
-        legend: 'Equipe 2019'
-      }
     ]
   },
-  ,
   {
     id: 'content-2021',
     content: [
@@ -356,77 +293,14 @@ export const historiaProvider: HistoriaProviderInterface = [
         type: 'equipe',
         year: '2021',
         captain: 'Rodolfo',
-        positions: [
-          { position: 1, category: 'projeto' },
-          { position: 5, category: 'custos' },
-          { position: 5, category: 'geral' },
-          { position: 5, category: 'enduro' },
-          { position: 5, category: 'autocross' }
-        ]
-      },
-      {
-        type: 'video',
-        videoURL: 'https://www.youtube.com/embed/-MkqLh-w-Ew'
+        positions: []
       },
       {
         type: 'frase',
-        text: '2019 começa grande. Conseguimos um patrocínio financeiro de peso. Ousamos e iniciamos o desenvolvimento de sistemas que antes julgávamos impossíveis de serem feitos.'
+        text: 'Estamos em construção...'
       },
-      {
-        type: 'text',
-        text: 'Novos componentes e logística de equipe são planejados e todo o protótipo é projetado na expectativa desse investimento. Porém, devido a mudanças ocorridas na empresa patrocinadora, o patrocínio é cancelado e nos vemos com um projeto financeiramente inviável em mãos.'
-      },
-      {
-        type: 'text',
-        text: 'Sabendo do nosso potencial, iniciamos um novo projeto de baixo custo, mantendo a receita do ano anterior, com foco em otimizar ao máximo todos os sistemas. Adotamos frenagem regenerativa, desenvolvemos um pacote aerodinâmico pensado na diminuição do arrasto, otimizamos estruturalmente todos sistemas mecânicos para possibilitar um banco de baterias maior sem aumentar a massa total do veículo e aumentamos a precisão de fabricação. Assim, alcançamos maior eficiência e maior autonomia do protótipo. Além disso, finalmente adquirimos pneus de corrida novos, determinantes para um melhor desempenho dinâmico na competição.'
-      },
-      {
-        type: 'image',
-        imagePath: '2019/prova-design.jpg',
-        legend: 'Prova de Design (projeto)'
-      },
-      {
-        type: 'text',
-        text: 'Somos capazes de antecipar o início da fase de testes e, assim, focar em maiores validações. Testamos o veículo até a última semana e novamente vamos para Piracicaba.'
-      },
-      {
-        type: 'text',
-        text: 'Passamos nas inspeções, conseguimos novamente estar entre os finalistas na prova de projeto, porém, dessa vez, temos problemas na prova de frenagem. E, no esforço para fazer o veículo ser aprovado no Brake Test, a elevada carga emocional dos membros acaba por interferir no trabalho, acarretando novos problemas mecânicos e também elétricos.'
-      },
-      {
-        type: 'image',
-        imagePath: '2019/boxes.jpg',
-        legend: 'Equipe nos boxes da competição'
-      },
-      {
-        type: 'text',
-        text: 'As provas dinâmicas vão se passando enquanto continuamos parados nos boxes realizando a manutenção do veículo. Depois de duas provas já perdidas, quando estamos a dez minutos de se encerrar a prova de Autocross, terminamos o reparo, somos aprovados no teste de frenagem e corremos para a pista com o carro. Porém, entramos na prova logo quando começa a chover e não conseguimos fazer um bom tempo. Ao final da prova, levamos o carro em ritmo acelerado para a final de projeto, que já havia começado.'
-      },
-      {
-        type: 'image',
-        imagePath: '2019/autocross.jpg',
-        legend: 'Prova de Autocross'
-      },
-      {
-        type: 'text',
-        text: 'No dia seguinte, Enduro, a prova dinâmica mais temida. Havíamos testado suficientemente o carro em Belo Horizonte, porém, depois dos problemas que tivemos no dia anterior, não estávamos nada seguros. E nossa intuição estava certa... O carro parou na primeira volta. Mais precisamente, na primeira curva.'
-      },
-      {
-        type: 'text',
-        text: 'Mas a cara de choro dos membros desapareceu rapidamente quando recebemos a notícia de que havíamos ganhado as final de projeto. Tínhamos o melhor projeto de Fórmula SAE Elétrico do Brasil!'
-      },
-      {
-        type: 'text',
-        text: 'Apesar de não termos conseguido mostrar o nosso potencial em pista, o nosso desempenho nas provas estáticas foi tão bom que nos colocou na 5ª colocação geral. Porém, voltamos com a sensação de que essa competição estava incompleta, de que ela ainda não havia acabado...'
-      },
-      {
-        type: 'image',
-        imagePath: '2019/equipe-2019.jpg',
-        legend: 'Equipe 2019'
-      }
     ]
   },
-  ,
   {
     id: 'content-2022',
     content: [
@@ -434,74 +308,27 @@ export const historiaProvider: HistoriaProviderInterface = [
         type: 'equipe',
         year: '2022',
         captain: 'Eduardo Fujii',
-        positions: [
-          { position: 1, category: 'projeto' },
-          { position: 5, category: 'custos' },
-          { position: 5, category: 'geral' },
-          { position: 5, category: 'enduro' },
-          { position: 5, category: 'autocross' }
-        ]
-      },
-      {
-        type: 'video',
-        videoURL: 'https://www.youtube.com/embed/-MkqLh-w-Ew'
+        positions: []
       },
       {
         type: 'frase',
-        text: '2019 começa grande. Conseguimos um patrocínio financeiro de peso. Ousamos e iniciamos o desenvolvimento de sistemas que antes julgávamos impossíveis de serem feitos.'
+        text: 'Estamos em construção...'
+      },
+    ]
+  },
+  {
+    id: 'content-2023',
+    content: [
+      {
+        type: 'equipe',
+        year: '2023',
+        captain: 'Eduardo Fujii',
+        positions: []
       },
       {
-        type: 'text',
-        text: 'Novos componentes e logística de equipe são planejados e todo o protótipo é projetado na expectativa desse investimento. Porém, devido a mudanças ocorridas na empresa patrocinadora, o patrocínio é cancelado e nos vemos com um projeto financeiramente inviável em mãos.'
+        type: 'frase',
+        text: 'Estamos em construção...'
       },
-      {
-        type: 'text',
-        text: 'Sabendo do nosso potencial, iniciamos um novo projeto de baixo custo, mantendo a receita do ano anterior, com foco em otimizar ao máximo todos os sistemas. Adotamos frenagem regenerativa, desenvolvemos um pacote aerodinâmico pensado na diminuição do arrasto, otimizamos estruturalmente todos sistemas mecânicos para possibilitar um banco de baterias maior sem aumentar a massa total do veículo e aumentamos a precisão de fabricação. Assim, alcançamos maior eficiência e maior autonomia do protótipo. Além disso, finalmente adquirimos pneus de corrida novos, determinantes para um melhor desempenho dinâmico na competição.'
-      },
-      {
-        type: 'image',
-        imagePath: '2019/prova-design.jpg',
-        legend: 'Prova de Design (projeto)'
-      },
-      {
-        type: 'text',
-        text: 'Somos capazes de antecipar o início da fase de testes e, assim, focar em maiores validações. Testamos o veículo até a última semana e novamente vamos para Piracicaba.'
-      },
-      {
-        type: 'text',
-        text: 'Passamos nas inspeções, conseguimos novamente estar entre os finalistas na prova de projeto, porém, dessa vez, temos problemas na prova de frenagem. E, no esforço para fazer o veículo ser aprovado no Brake Test, a elevada carga emocional dos membros acaba por interferir no trabalho, acarretando novos problemas mecânicos e também elétricos.'
-      },
-      {
-        type: 'image',
-        imagePath: '2019/boxes.jpg',
-        legend: 'Equipe nos boxes da competição'
-      },
-      {
-        type: 'text',
-        text: 'As provas dinâmicas vão se passando enquanto continuamos parados nos boxes realizando a manutenção do veículo. Depois de duas provas já perdidas, quando estamos a dez minutos de se encerrar a prova de Autocross, terminamos o reparo, somos aprovados no teste de frenagem e corremos para a pista com o carro. Porém, entramos na prova logo quando começa a chover e não conseguimos fazer um bom tempo. Ao final da prova, levamos o carro em ritmo acelerado para a final de projeto, que já havia começado.'
-      },
-      {
-        type: 'image',
-        imagePath: '2019/autocross.jpg',
-        legend: 'Prova de Autocross'
-      },
-      {
-        type: 'text',
-        text: 'No dia seguinte, Enduro, a prova dinâmica mais temida. Havíamos testado suficientemente o carro em Belo Horizonte, porém, depois dos problemas que tivemos no dia anterior, não estávamos nada seguros. E nossa intuição estava certa... O carro parou na primeira volta. Mais precisamente, na primeira curva.'
-      },
-      {
-        type: 'text',
-        text: 'Mas a cara de choro dos membros desapareceu rapidamente quando recebemos a notícia de que havíamos ganhado as final de projeto. Tínhamos o melhor projeto de Fórmula SAE Elétrico do Brasil!'
-      },
-      {
-        type: 'text',
-        text: 'Apesar de não termos conseguido mostrar o nosso potencial em pista, o nosso desempenho nas provas estáticas foi tão bom que nos colocou na 5ª colocação geral. Porém, voltamos com a sensação de que essa competição estava incompleta, de que ela ainda não havia acabado...'
-      },
-      {
-        type: 'image',
-        imagePath: '2019/equipe-2019.jpg',
-        legend: 'Equipe 2019'
-      }
     ]
   }
 ]

@@ -40,7 +40,7 @@ export const siderbarOptionsProvider = [
   { label: 'Protótipos', to: '/prototipos' },
   { label: 'Equipe', to: '/equipe/2023' },
   { label: 'Parceiros', to: '/parceiros' },
-  { label: 'A competição', to: '/competicao' },
+  { label: 'Competição', to: '/competicao' },
   { label: 'Galeria', to: '/galeria' },
   { label: 'Rollouts', to: '/rollouts' },
   { label: 'Contato', to: '/contato' }
