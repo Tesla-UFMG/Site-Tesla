@@ -34,7 +34,9 @@ const Home: React.FC = () => {
             <ContentWrapper marginTop="26vh">
               <Title>BEM-VINDOS!</Title>
               <Text>Já conhece nossa equipe?</Text>
-              <Button width={200}>CONTE-ME MAIS</Button>
+              <Button to="/historia" width={200}>
+                CONTE-ME MAIS
+              </Button>
             </ContentWrapper>
           </Section>
 
@@ -48,7 +50,9 @@ const Home: React.FC = () => {
                   Explore nossos protótipos e saiba a história por trás de cada
                   um deles!
                 </Text>
-                <Button width={150}>CONHEÇA</Button>
+                <Button to="/prototipos" width={150}>
+                  CONHEÇA
+                </Button>
               </ContentWrapper>
             </PrototiposWrapper>
           </Section>
@@ -60,7 +64,9 @@ const Home: React.FC = () => {
                 Conheça as mentes
                 <br /> por trás desse projeto
               </Text>
-              <Button width={170}>SAIBA MAIS</Button>
+              <Button to="/equipe" width={170}>
+                SAIBA MAIS
+              </Button>
             </ContentWrapper>
           </Section>
 
@@ -72,8 +78,12 @@ const Home: React.FC = () => {
                 ótimos resultados
               </Text>
               <ParceirosButtonsWrapper>
-                <Button width={220}>PATROCINADORES</Button>
-                <Button width={220}>QUERO AJUDAR</Button>
+                <Button to="/parceiros" width={220}>
+                  PATROCINADORES
+                </Button>
+                <Button to="/contato" width={220}>
+                  QUERO AJUDAR
+                </Button>
               </ParceirosButtonsWrapper>
             </ContentWrapper>
           </Section>

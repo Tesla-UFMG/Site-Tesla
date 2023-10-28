@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import { useEffect } from 'react'
+import { useContext, useEffect } from 'react'
 
 import { useHeaderContext } from '../../contexts/HeaderContext'
 import { useIsOnScreen } from '../../hooks/useIsOnScreen'
@@ -72,14 +72,19 @@ const EquipeAno: React.FC = () => {
   const backgroundImageURL = `/assets/images/equipe/background/${year}.jpg` // Caminho para a imagem de background correspondente ao ano
 
   const { toggleColor } = useHeaderContext()
+  const { handleColor } = useHeaderContext()
   const { elementRef: sectionStartRef, isOnScreen } = useIsOnScreen(0.01)
 
   const totalMembers = countTotalMembersOfYear(equipeProvider, year)
   const numberOfSystems = team.sistemas.length
 
   useEffect(() => {
-    toggleColor()
-  }, [isOnScreen])
+    if (year === '2017' || year === '2023') {
+      handleColor('black')
+    } else {
+      toggleColor()
+    }
+  }, [isOnScreen, year])
 
   return (
     <>
@@ -116,6 +121,16 @@ const EquipeAno: React.FC = () => {
               return (
                 <>
                   <SystemName>{system.nome}</SystemName>
+                  {system.diretor && (
+                    <a href={system.diretor?.linkedin} target="_blank">
+                      <Member
+                        name={system.diretor?.name}
+                        role={system.diretor?.role}
+                        imagePath={system?.diretor?.imagePath}
+                        year={year as string}
+                      />
+                    </a>
+                  )}
                   {system.subsistemas.map(subsystem => {
                     return (
                       <>
