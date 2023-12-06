@@ -4,8 +4,8 @@ import styled from 'styled-components'
 
 export const FooterContent = styled.div`
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  flex-direction: center;
+  align-items: column;
   justify-content: space-around;
   gap: 40px;
 
@@ -21,7 +21,7 @@ export const FooterContent = styled.div`
 
 export const OptionsContainer = styled.div`
   display: flex;
-  column-gap: 20px;
+  column-gap: 10px;
 
   @media ${props => props.theme.breakpoints.laptop} {
     gap: 60px;
@@ -37,11 +37,12 @@ export const OptionsWrapper = styled.div`
 
 export const OptionsExplorar = styled.div`
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+ 
   gap: 10px;
 
   @media ${props => props.theme.breakpoints.laptop} {
-    flex-direction: row;
+    flex-direction: center;
     gap: 60px;
   }
 `

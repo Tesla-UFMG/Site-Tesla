@@ -35,7 +35,9 @@ export const Footer = ({ className }: { className?: string }) => {
                 )
               })}
             </OptionsExplorar>
+          
           </OptionsWrapper>
+          
 
           <OptionsWrapper>
             <h2>SOCIAL</h2>
