@@ -3,7 +3,7 @@ export const FooterOptionsProvider = {
     [
       { label: 'História', to: '/historia' },
       { label: 'Protótipos', to: '/prototipos' },
-      { label: 'Equipe', to: '/equipe' },
+      { label: 'Equipe', to: '/equipe/2023' },
       { label: 'Parceiros', to: '/parceiros' }
     ],
     [

@@ -64,7 +64,7 @@ const Home: React.FC = () => {
                 Conheça as mentes
                 <br /> por trás desse projeto
               </Text>
-              <Button to="/equipe" width={170}>
+              <Button to="/equipe/2023" width={170}>
                 SAIBA MAIS
               </Button>
             </ContentWrapper>
