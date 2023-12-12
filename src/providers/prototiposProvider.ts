@@ -25,9 +25,178 @@ export interface PrototipoData {
   >
 }
 
+// os dados dos carros tem que ser revisados
 export const prototiposProvider: {
   [prototipo: string]: PrototipoData
 } = {
+  NK624: {
+    year: 2023,
+    sectionStart: {
+      top: false,
+      left: true
+    },
+    positions: {
+      general: 3,
+      categories: [
+        { name: 'custos', position: 6 },
+        { name: 'apresentação', position: 1 },
+        { name: 'design', position: 2 },
+        { name: 'aceleração' },
+        { name: 'skidpad' },
+        { name: 'autocross', position: 3 },
+        { name: 'enduro' }
+      ],
+      text: [
+        'TEM QUE MUDAR O TEXTO!!.',
+        'Lançado em 31 de outubro de 2019, foi à competição cheio de expectativas pela surpreendente segunda colocação no ano anterior. O grande empenho da equipe durante o ano levou ao primeiro lugar na prova de projeto, porém o protótipo enfrentou alguns imprevistos nas provas dinâmicas e assim, conquistou a quinta colocação geral.'
+      ]
+    },
+    especifications: {
+      dtec: 'DTEC-NK319.svg',
+      data: [
+        { info: 'Motor', data: '2x WEG VE-M01' },
+        { info: 'Autonomia', data: '22 km' },
+        { info: 'Potência Máx.', data: '54 cv (39,7kW)' },
+        { info: 'Bitola Diant.', data: '1170 mm' },
+        { info: 'Torque Máx.', data: '8,2 Nm (39,7 kW)' },
+        { info: 'Bitola Tras.', data: '1150 mm' },
+        { info: '0 - 75m', data: '5,1 s' },
+        { info: 'Entre-eixos', data: '1150 mm' },
+        { info: 'Velocidade Máx.', data: '99 Km/h' },
+        { info: 'Massa', data: '279 kg' },
+        { info: 'Consumo', data: '216 Wh/km' },
+        { info: 'Massa Diant.', data: '49,9%' }
+      ]
+    },
+    subsystems: [
+      {
+        type: 'title',
+        content: 'ELETRÔNICA'
+      },
+      {
+        type: 'text',
+        content: 'TEM QUE MUDAR O TEXTO!!.'
+      },
+      {
+        type: 'subsystem',
+        content: 'CONTROLE'
+      },
+      {
+        type: 'text',
+        content:
+          'O subsistema de Controle, no projeto do NK523, priorizou a estabilidade dos sistemas essenciais para o controle de torque do veículo e também o desenvolvimento contínuo do diferencial eletrônico do protótipo. Na competição de 2022 e em anteriores, o sensoriamento do pedal de acelerador se mostrou um problema de confiabilidade que impactava de maneira significativa na dirigibilidade e resposta de torque do nosso powertrain. Então, em 2023, o sistema de sensoriamento foi totalmente redesenhado, mantendo-se dentro do regulamento, mas apresentando grande melhoria em termos de confiabilidade do sinal de leitura, o que foi confirmado com o sucesso do sistema na competição. Além disso, o projeto de diferencial eletrônico continuou tendo avanços, de maneira que constantemente o controle de torque veicular vem se aprimorando.'
+      },
+      {
+        type: 'subsystem',
+        content: 'AQUISIÇÃO DE DADOS'
+      },
+      {
+        type: 'text',
+        content:
+          'Para a temporada de 2023 a Aquisição de Dados buscou a estabilidade de seus sistemas já existentes e o incremento de funcionalidades, ideias que vieram do feedback de juízes de competições anteriores. O sistema de salvamento de dados (Datalogger) passou a ser feito em outro formato de arquivo, mais adequado à leitura e à análise. O código da Telemetria foi atualizado para a atual plataforma de desenvolvimento usada na equipe e o display LCD no painel do carro passou por uma reestruturação gráfica, a fim de apresentar as informações mais importantes da forma mais eficiente ao piloto. Ainda iniciaram-se os estudos e implementação dos sensores infravermelhos para medição de temperatura dos pneus. Tudo isso foi feito com o intuito de alcançar um monitoramento mais amplo do NK523, para termos um entendimento mais aprofundado do projeto.'
+      },
+      {
+        type: 'subsystem',
+        content: 'SISTEMA DE SEGURANÇA'
+      },
+      {
+        type: 'text',
+        content:
+          'Em 2023, foi dado início ao projeto a nova versão do sistema de monitoramento de baterias, referente tanto a placa Master quanto Slave. Em relação a BMS Master, o foco principal foi a implementação de um novo microcontrolador para a placa, além da otimização do circuito e do software presentes na placa. Já a BMS Slave foi adaptada para receber um novo sensor LTC recebido por patrocínio, que permitirá a expansão da sua capacidade de monitoramento. Além disso, houve avanços na implementação da medição do Estado de Carga do banco de baterias do carro, sendo possível o salvamento desses dados, e a manutenção geral de outras placas do subsistema.'
+      },
+      {
+        type: 'subsystem',
+        content: 'SISTEMA TRATIVO'
+      },
+      {
+        type: 'text',
+        content:
+          'O Sistema Trativo de 2023 passou por uma reviravolta. O subsistema, que foi iniciado em 2021, passou o ano de 2022 como um "acessório", sendo completado por membros de segurança e sem muitos projetos relevantes à equipe. Com o passar da temporada, dois dos quatro membros do Trativo saíram, deixando os demais sobrecarregados e incapazes de inovar nos projetos, que progrediram com muita dificuldade. Por outro lado, em 2023 o Sistema Trativo recebeu 6 novos membros, e optou por voltar às origens com projetos que reiniciaram do zero, repassando detalhe por detalhe para corrigir os erros, e encontrar melhores métodos dos que usados pela equipe no passado. Em destaque estão os projetos de Frenagem Regenerativa e de Estado de Saúde das Células.         Ao final da temporada, conquistamos um resultado muito satisfatório. Os projetos andavam a todo vapor, e concluímos o ano com novos conhecimentos e técnicas que permitiriam aumentar ainda mais a performance do nosso carro e da nossa equipe.'
+      },
+      {
+        type: 'title',
+        content: 'MECÂNICA'
+      },
+      {
+        type: 'subsystem',
+        content: 'TRANSMISSÃO'
+      },
+      {
+        type: 'image',
+        content: ['POWERTRAIN.png']
+      },
+      {
+        type: 'text',
+        content:
+          'O principal foco da transmissão em 2023 foi otimizar e remodelar peças, afim de corrigir os erros apresentados em 2022, com o objetivo de minimizar perdas e aumentar a eficiência do sistema. além disso, um dos projetos desenvolvido foi um redutor, responsável pela multiplicação do torque advindo do motor. através de um conjunto de engrenagens planetárias, ele reduz a velocidade e aumenta o torque, seguindo uma redução de 4:1, tornando possível a movimentação do carro. juntamente com isso, os componentes foram projetados visando aumentar o coeficiente de segurança e a vida útil, afim de obter uma transmissão mais confiável e uma durabilidade maior.'
+      },
+      {
+        type: 'subsystem',
+        content: 'ESTRUTURAS'
+      },
+      {
+        type: 'image',
+        content: ['CHASSI.png']
+      },
+      {
+        type: 'text',
+        content:
+          'Entre os principais avanços do projeto em relação ao ano anterior se destaca o melhor dimensionamento das juntas soldadas e parafusadas, realizado de acordo com normas nacionais vigentes, garantindo maior confiabilidade ao veículo e criando as bases para redução das dimensões das fixações em projetos futuros. Em relação ao chassi propriamente, maior robustez e rigidez torcional foram alcançadas, de modo a suportar e distribuir melhor as cargas impostas, permitindo maior controle da distribuição de transferência lateral de carga. Além disso, o seu processo de fabricação foi mais acurado, através do uso de um novo tipo de gabarito – planos cortados a laser – aumentando a correspondência entre o projetado e o fabricado. Por último, foram feitos ensaios, testes e aquisições de dados visando assegurar a qualidade da estrutura e validar as simulações computacionais realizadas na fase inicial.'
+      },
+      {
+        type: 'subsystem',
+        content: 'AERODINÂMICA'
+      },
+      {
+        type: 'image',
+        content: ['AERO.png']
+      },
+      {
+        type: 'text',
+        content:
+          'O subsistema de aerodinâmica tem como responsabilidade potencializar os resultados dos projetos da equipe por meio do uso inteligente do escoamento, proporcionando a maior redução de arrasto possível. O pacote aerodinâmico é composto pelo projeto de uma asa, de um bico, de uma carenagem traseira e de um difusor. Na temporada atual, reforçamos a geração efetiva de downforce, tendo em vista a importância do desempenho em curvas na competição.'
+      },
+      {
+        type: 'subsystem',
+        content: 'DIREÇÃO'
+      },
+      {
+        type: 'image',
+        content: ['DIRECAO.png']
+      },
+      {
+        type: 'text',
+        content:
+          'No projeto de 2023, continuamos o uso do conjunto antigo por viabilidade de fabricação. Além disso, foi desenvolvimento um projeto para o uso de engrenagens cônicas no lugar da junta universal, a fim de eliminar a limitação do ângulo de trabalho da junta.'
+      },
+      {
+        type: 'subsystem',
+        content: 'SUSPENSÃO'
+      },
+      {
+        type: 'image',
+        content: ['SUSP-DIANT.png', 'SUSP-TRAS.png']
+      },
+      {
+        type: 'text',
+        content:
+          'No NK 523, o foco foi de redução de massa não suspensa. Para isso reformulamos o projeto das mangas dianteiras, com o objetivo de alívio de massa e redução de concentração de tensões.'
+      },
+      {
+        type: 'subsystem',
+        content: 'FREIOS'
+      },
+      {
+        type: 'image',
+        content: ['FREIO.png']
+      },
+      {
+        type: 'text',
+        content:
+          'Nesse projeto de freios, substituímos a linha flexível em sobre para o uso do aeroquip, um material mais flexível que permite melhor adaptabilidade ao chassi.'
+      }
+    ]
+  },
   NK523: {
     year: 2023,
     sectionStart: {
@@ -197,6 +366,175 @@ export const prototiposProvider: {
     ]
   },
   NK422: {
+    year: 2022,
+    sectionStart: {
+      top: false,
+      left: true
+    },
+    positions: {
+      general: 3,
+      categories: [
+        { name: 'custos', position: 6 },
+        { name: 'apresentação', position: 1 },
+        { name: 'design', position: 2 },
+        { name: 'aceleração' },
+        { name: 'skidpad' },
+        { name: 'autocross', position: 3 },
+        { name: 'enduro' }
+      ],
+      text: [
+        'TEM QUE MUDAR O TEXTO.',
+        'Lançado em 31 de outubro de 2019, foi à competição cheio de expectativas pela surpreendente segunda colocação no ano anterior. O grande empenho da equipe durante o ano levou ao primeiro lugar na prova de projeto, porém o protótipo enfrentou alguns imprevistos nas provas dinâmicas e assim, conquistou a quinta colocação geral.'
+      ]
+    },
+    especifications: {
+      dtec: 'DTEC-NK319.svg',
+      data: [
+        { info: 'Motor', data: '2x WEG VE-M01' },
+        { info: 'Autonomia', data: '22 km' },
+        { info: 'Potência Máx.', data: '54 cv (39,7kW)' },
+        { info: 'Bitola Diant.', data: '1170 mm' },
+        { info: 'Torque Máx.', data: '8,2 Nm (39,7 kW)' },
+        { info: 'Bitola Tras.', data: '1150 mm' },
+        { info: '0 - 75m', data: '5,1 s' },
+        { info: 'Entre-eixos', data: '1150 mm' },
+        { info: 'Velocidade Máx.', data: '99 Km/h' },
+        { info: 'Massa', data: '279 kg' },
+        { info: 'Consumo', data: '216 Wh/km' },
+        { info: 'Massa Diant.', data: '49,9%' }
+      ]
+    },
+    subsystems: [
+      {
+        type: 'title',
+        content: 'ELETRÔNICA'
+      },
+      {
+        type: 'text',
+        content:
+          'O projeto eletrônico teve dois objetivos principais no ano de 2019: sensoriamento abrangente do veículo, permitindo diagnóstico e validação dos diversos sistemas do carro; e aumento da autonomia através do melhor gerenciamento de energia, visando alcançar os 22 quilômetros da prova de Enduro.'
+      },
+      {
+        type: 'subsystem',
+        content: 'CONTROLE'
+      },
+      {
+        type: 'text',
+        content:
+          'Em 2019 houve a implementação de frenagem regenerativa no veículo e foi investido tempo em pesquisas sobre Controle de Arrancada e Vetorização de Torque para aplicações futuras. Também foi aprimorada a estabilidade de comunicação do sistema de controle com os outros módulos.'
+      },
+      {
+        type: 'subsystem',
+        content: 'AQUISIÇÃO DE DADOS'
+      },
+      {
+        type: 'text',
+        content:
+          'No projeto do NK422 foram implementadas importantes funcionalidades na placa Datalogger como o Watchdog, sistema de segurança que reinicia a placa automaticamente caso ela não salve dados no cartão SD. Foi estabelecida uma parceria com a Kingston, que forneceu ao Tesla novos modelos de cartão SD mais rápidos, que contribuíram muito para o projeto. Além disso, foi desenvolvida uma nova PCB para o projeto do GNSS, cujo objetivo é o recebimento de dados precisos de posição geográfica, velocidade, aceleração e giroscópio do carro, através da comunicação com três constelações de satélites. Tratou-se de um projeto complexo por lidar com sinais de alta frequência, sendo necessário a criação da primeira PCB de 4 layers do Tesla. Foram ainda adicionadas novas funcionalidades à Telemetria e Nextion que permitem a adição do cálculo do Brake Bias e a configuração de uma página com informações pertinentes do carro pré-testes. Por fim, foram fabricadas as quatro placas Coletoras de Dados, voltadas à aquisição de dados de sensores de validação mecânica como informação analógica da pressão das linhas de freio.  A Aquisição de Dados de 2022 conseguiu manter seus projetos funcionais e iniciou importantes estudos para próximas temporadas.'
+      },
+      {
+        type: 'subsystem',
+        content: 'SISTEMA DE SEGURANÇA'
+      },
+      {
+        type: 'text',
+        content:
+          'Em 2022 , adaptamos o Sistema de Monitoramento de Baterias (BMS) para atender os requisitos da nova configuração do acumulador. Refatoramos grande parte do firmware do BMS, melhorando a confiabilidade, legibilidade e manutenção do código. Também fizemos progresso na pesquisa sobre o Estado de Carga das baterias, estudando implementações do algoritmo para o seu cálculo e trabalhando para aperfeiçoar as medicações de corrente do banco de baterias. Além disso, pequenas modificações foram feitas em outros sistemas de segurança para garantir a conformidade com as alterações previstas no regulamento da FSAE 2022.'
+      },
+      {
+        type: 'subsystem',
+        content: 'SISTEMA TRATIVO'
+      },
+      {
+        type: 'text',
+        content:
+          'O Sistema Trativo em 2022 lidou com a continuidade dos estudos de frenagem regenerativa, mas principalmente com a reconstrução do acumulador. Houve uma atualização do regulamento, no que tangia a algumas distâncias nas quais o acumulador que a equipe possuia não mais se encaixava. Visto isso, foi necessária uma grande reformulação do projeto, mudando layout externo, layout interna e capacidade do banco como um todo. Apesar de todas as dificuldades, o projeto foi entregue e fabricado em tempo recorde e adequado ao regulamento da competição de 2022.'
+      },
+      {
+        type: 'title',
+        content: 'MECÂNICA'
+      },
+      {
+        type: 'subsystem',
+        content: 'TRANSMISSÃO'
+      },
+      {
+        type: 'image',
+        content: ['POWERTRAIN.png']
+      },
+      {
+        type: 'text',
+        content:
+          'O foco base para a transmissão 2019 foi aumentar a confiabilidade e a eficiência do sistema, bem como otimizar o dimensionamento das peças. Falhas estruturais e de fabricação foram corrigidas, a fim de reduzir vibrações e evitar desgaste acentuado do sistema. Também foi possível reduzir a massa e a inércia rotacional dos componentes, tanto pela otimização estrutural, quanto pela migração para o uso de juntas e semieixos de projeto próprio. Em paralelo, deu-se início aos estudos dos efeitos da fadiga em componentes mecânicos, visando alicerçar o desenvolvimento de uma metodologia de dimensionamento de peças mais precisa e condizente com as aplicações dos protótipos da equipe.'
+      },
+      {
+        type: 'subsystem',
+        content: 'ESTRUTURAS'
+      },
+      {
+        type: 'image',
+        content: ['CHASSI.png']
+      },
+      {
+        type: 'text',
+        content:
+          'Entre os principais avanços do projeto em relação ao ano anterior se destaca o melhor dimensionamento das juntas soldadas e parafusadas, realizado de acordo com normas nacionais vigentes, garantindo maior confiabilidade ao veículo e criando as bases para redução das dimensões das fixações em projetos futuros. Em relação ao chassi propriamente, maior robustez e rigidez torcional foram alcançadas, de modo a suportar e distribuir melhor as cargas impostas, permitindo maior controle da distribuição de transferência lateral de carga. Além disso, o seu processo de fabricação foi mais acurado, através do uso de um novo tipo de gabarito – planos cortados a laser – aumentando a correspondência entre o projetado e o fabricado. Por último, foram feitos ensaios, testes e aquisições de dados visando assegurar a qualidade da estrutura e validar as simulações computacionais realizadas na fase inicial.'
+      },
+      {
+        type: 'subsystem',
+        content: 'AERODINÂMICA'
+      },
+      {
+        type: 'image',
+        content: ['AERO.png']
+      },
+      {
+        type: 'text',
+        content:
+          'O subsistema de aerodinâmica tem como responsabilidade potencializar os resultados dos projetos da equipe por meio do uso inteligente do escoamento, proporcionando a maior redução de arrasto possível. O pacote aerodinâmico é composto pelo projeto de uma asa, de um bico, de uma carenagem traseira e de um difusor. Na temporada atual, reforçamos a geração efetiva de downforce, tendo em vista a importância do desempenho em curvas na competição.'
+      },
+      {
+        type: 'subsystem',
+        content: 'DIREÇÃO'
+      },
+      {
+        type: 'image',
+        content: ['DIRECAO.png']
+      },
+      {
+        type: 'text',
+        content:
+          'A direção 2019 teve um foco maior no aumento da responsividade do sistema, a fim de torná-lo mais direto. Para isso, reduziu-se a razão de esterçamento de 5:1 para 3,5:1 e desenvolveu-se um sistema de redução de folga da coluna, tornando o veículo mais ágil em mudanças de trajetória. Ainda, conferiu-se ajustabilidade ao sistema através de steering arms substituíveis e obteve-se uma redução de massa de 25% através do redesenho dos componentes já existentes.'
+      },
+      {
+        type: 'subsystem',
+        content: 'SUSPENSÃO'
+      },
+      {
+        type: 'image',
+        content: ['SUSP-DIANT.png', 'SUSP-TRAS.png']
+      },
+      {
+        type: 'text',
+        content:
+          'Em 2019 otimizou-se o projeto cinemático da suspensão, visando alcançar um ganho de cambagem mais adequado; investiu-se novamente em ajustabilidade, com o desenvolvimento de barras estabilizadoras do tipo faca giratória, consideradas mais versáteis, e de camber plates, capazes de proporcionar diferentes ajustes de cambagem; e reduziu-se a massa não-suspensa, através do emprego de alumínio aeronáutico nas mangas de eixo e cubos de roda, contribuindo para a aderência dos pneus mediante irregularidades da pista e para a redução da inércia rotacional do veículo e das partes girantes.'
+      },
+      {
+        type: 'subsystem',
+        content: 'FREIOS'
+      },
+      {
+        type: 'image',
+        content: ['FREIO.png']
+      },
+      {
+        type: 'text',
+        content:
+          'O projeto do sistema de freios do NK-319 teve três focos principais: validação do comportamento teórico do sistema, redução de massa de peças julgadas superdimensionadas e análises mais precisas das cargas mecânicas e térmicas impostas aos componentes. Sensores de pressão e temperatura foram empregados, possibilitando avaliar as pressões nas linhas hidráulicas em diferentes condições de frenagem e a necessidade de arrefecimento dos discos de freio, validando o projeto. Por fim, através de otimizações topológicas, 23% da massa do sistema foi reduzida.'
+      }
+    ]
+  },
+  NK420: {
     year: 2022,
     sectionStart: {
       top: false,
@@ -857,6 +1195,7 @@ export const years = [
     potency: '23kW'
   },
   {
+    // a imagem tem que ser atualizada na pasta public/assets/prototipos/nk???
     year: '2020/21',
     car: 'NK420',
     image: 'NK420.png',
@@ -868,22 +1207,36 @@ export const years = [
     potency: '-'
   },
   {
+    // a imagem tem que ser atualizada na pasta public/assets/prototipos/nk???
     year: '2022',
     car: 'NK422',
     image: 'NK420.png',
     description: 'Carro em desenvolvimento.',
-    to: '/prototipos/NK420',
+    to: '/prototipos/NK422',
     initialYear: false,
     time: '-',
     velocity: '-',
     potency: '-'
   },
   {
+    // a imagem tem que ser atualizada na pasta public/assets/prototipos/nk???
     year: '2023',
     car: 'NK523',
     image: 'NK420.png',
     description: 'Carro em desenvolvimento.',
     to: '/prototipos/NK523',
+    initialYear: true,
+    time: '-',
+    velocity: '-',
+    potency: '-'
+  },
+  {
+    // a imagem tem que ser atualizada na pasta public/assets/prototipos/nk???
+    year: '2024',
+    car: 'NK624',
+    image: 'NK420.png',
+    description: 'Carro em desenvolvimento.',
+    to: '/prototipos/NK624',
     initialYear: true,
     time: '-',
     velocity: '-',
