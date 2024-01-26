@@ -30,7 +30,7 @@ export const prototiposProvider: {
   [prototipo: string]: PrototipoData
 } = {
   NK624: {
-    year: 2023,
+    year: 2024,
     sectionStart: {
       top: false,
       left: true
@@ -1225,7 +1225,7 @@ export const years = [
     image: 'NK420.png',
     description: 'Carro em desenvolvimento.',
     to: '/prototipos/NK523',
-    initialYear: true,
+    initialYear: false,
     time: '-',
     velocity: '-',
     potency: '-'

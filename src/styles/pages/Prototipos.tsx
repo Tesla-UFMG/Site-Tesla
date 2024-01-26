@@ -249,7 +249,7 @@ const YearsRowUnstyled = ({
           index <= yearsIndex + sizeIndex
         ) {
           return (
-            <p key={index} className={index === yearsIndex && 'center'}>
+            <p key={index} className={index === yearsIndex ? 'center' : ''}>
               {year.year}
             </p>
           )
