@@ -55,4 +55,7 @@ export const SectionFooter = styled(SectionUnstyled)`
   height: auto;
 
   background-color: ${props => props.theme.colors.black};
+
+  scroll-snap-stop: always;
+	scroll-snap-align: end;
 `
