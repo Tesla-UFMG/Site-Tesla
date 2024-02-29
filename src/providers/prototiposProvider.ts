@@ -1243,3 +1243,11 @@ export const years = [
     potency: '-'
   }
 ]
+
+export const curiosidades = [
+  {
+    title: "teste title",
+    description: "teste description",
+    text: "teste text"
+  }
+]

@@ -11,7 +11,7 @@ import { FaCog } from 'react-icons/fa'
 import Link from 'next/link'
 import { Button } from '../../components/Button'
 import { Footer } from '../../components/Footer'
-import { years } from '../../providers/prototiposProvider'
+import { years, curiosidades } from '../../providers/prototiposProvider'
 import {
   BoxData,
   BoxDataWrapper,
@@ -23,7 +23,8 @@ import {
   PageTitle,
   Section,
   SectionContent,
-  YearsRow
+  YearsRow,
+  FABInfo
 } from '../../styles/pages/Prototipos'
 
 const Prototipos: React.FC = () => {
@@ -54,6 +55,7 @@ const Prototipos: React.FC = () => {
             <CarWrapper>
               <CarNameWrapper>
                 <CarName>{years[yearIndex].car}</CarName>
+                
                 <Button>
                   <Link href={years[yearIndex].to}>VER MAIS</Link>
                 </Button>
@@ -68,6 +70,7 @@ const Prototipos: React.FC = () => {
                 layout="fill"
               />
               <CarDescription>{years[yearIndex].description}</CarDescription>
+              <FABInfo title={curiosidades[0].title} text={curiosidades[0].text} description={curiosidades[0].description}></FABInfo>
             </CarWrapper>
             <BoxDataWrapper>
               <BoxData

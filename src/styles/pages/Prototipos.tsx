@@ -1,6 +1,9 @@
 import { useEffect, useState } from 'react'
 import { IconType } from 'react-icons'
 import { BiChevronLeft, BiChevronRight } from 'react-icons/bi'
+import { FaInfoCircle } from "react-icons/fa";
+import { FAB } from '../../components/FAB'
+import { Popover } from './Parceiros';
 import styled from 'styled-components'
 
 export const Container = styled.div`
@@ -698,3 +701,42 @@ export const ContentImageWrapper = styled.div`
     object-fit: contain;
   }
 `
+
+export const FABInfo = ({
+  title,
+  description,
+  text
+}: {
+  title?: string,
+  description: string,
+  text?: string
+}) => {
+  const [isPopoverOpen, setIsPopoverOpen] = useState(false)
+  return (
+    <div>
+      <FAB 
+        Icon={FaInfoCircle} 
+        diameter={50} 
+        color='#4ed840' 
+        backgroundColor='#FFFFFF' 
+        colorOnHover='#FFFFFF' 
+        backgroundColorOnHover='#4ed840' 
+        onClick={() => setIsPopoverOpen(true)}
+      ></FAB>
+      {isPopoverOpen && (
+        <Popover
+          onClose={() => setIsPopoverOpen(false)}
+          title={title}
+          description={description}
+          text={text}
+          to={""}
+          social={{
+            facebook: "",
+            instagram: "",
+            youtube: ""
+          }}
+        />
+      )}
+    </div>
+  )
+}

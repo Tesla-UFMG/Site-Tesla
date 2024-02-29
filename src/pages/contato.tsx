@@ -2,6 +2,7 @@
 
 import Head from 'next/head'
 
+import { FAB } from '../components/FAB'
 import {
   ContactButton,
   Container,
@@ -14,6 +15,8 @@ import {
   TextArea,
   Title
 } from '../styles/pages/Contato'
+import { ContatoProvider } from '../providers/contatoProvider'
+import { BsWhatsapp } from "react-icons/bs";
 import { FormEvent, useState } from 'react'
 
 interface FormInputs {
@@ -103,6 +106,7 @@ const Contato: React.FC = () => {
                 ENVIAR
               </ContactButton>
             </FormContent>
+            <FAB Icon={BsWhatsapp} to={ContatoProvider.contato} color='#FFFFFF' backgroundColor='#4ed840' colorOnHover='#4ed840' backgroundColorOnHover='#FFFFFF'></FAB>
           </SectionContent>
         </Section>
       </Container>
