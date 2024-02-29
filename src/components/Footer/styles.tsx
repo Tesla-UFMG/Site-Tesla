@@ -21,10 +21,14 @@ export const FooterContent = styled.div`
 
 export const OptionsContainer = styled.div`
   display: flex;
-  column-gap: 10px;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  column-gap: 20px;
 
   @media ${props => props.theme.breakpoints.laptop} {
-    gap: 60px;
+   gap: 60px;
+   flex-direction: row;
   }
 `
 
