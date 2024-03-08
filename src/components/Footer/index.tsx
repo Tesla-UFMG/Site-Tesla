@@ -54,7 +54,9 @@ export const Footer = ({ className }: { className?: string }) => {
         <div>
           <TeslaName>FÓRMULA TESLA UFMG</TeslaName>
           <TeslaAddress>
-            Av. Pres. Antônio Carlos 6627 CPH Pampulha, Belo Horizonte - MG
+            <a href='https://encurtador.com.br/giLS1'>
+              Av. Pres. Antônio Carlos 6627 - Escola de Engenharia - Pampulha, Belo Horizonte - MG
+              </a>
           </TeslaAddress>
         </div>
       </FooterContent>
