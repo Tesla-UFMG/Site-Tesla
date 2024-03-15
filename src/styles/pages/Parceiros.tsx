@@ -278,23 +278,12 @@ export const ImageWrapper = styled(ImageWrapperUnstyled)<{
       width: '100px'
     }}
 
-  ${props =>
-    props.category === 'parceiros' && {
-      margin: 'auto',
-      width: '100px'
-    }}
-
-  ${props =>
-    props.category === 'apoio' && {
-      margin: 'auto',
-      width: '100px'
-    }}
-
-  transition: transform 0.3s ease;
+  transition: padding 0.3s ease;
 
   &:hover {
-    transform: scale(1.1);
+    padding: 10px;
   }
+  
   & > span {
     cursor: pointer;
     position: unset !important;
