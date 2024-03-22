@@ -30,4 +30,8 @@ export const SidebarIcon = styled(SidebarIconUnstyled)<{
   position: ${props => (props.fixed ? 'fixed' : 'absolute')};
   right: ${props => (props.fixed ? '13px' : '0')};
   z-index: 20;
+
+  @media ${props => props.theme.breakpoints.laptop} {
+    display: none;
+  }
 `

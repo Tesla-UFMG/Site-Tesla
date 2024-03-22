@@ -44,10 +44,6 @@ export const Header: React.FC = () => {
         })}
       </OptionsWrapper>
 
-      {/*
-      O hamburguer está comentado por enquanto por ter uma função reduntante
-      Isso é temporario até ele ser repensado
-
       <SidebarIcon
         Icon={isSideBarOpen ? BiX : BiMenu}
         onClick={() => setIsSideBarOpen(!isSideBarOpen)}
@@ -58,7 +54,7 @@ export const Header: React.FC = () => {
         isOpen={isSideBarOpen} 
         options={siderbarOptionsProvider} 
         onClickOption={() => setIsSideBarOpen(false)} 
-      /> */}
+      />
     </HeaderContainer>
   )
 }

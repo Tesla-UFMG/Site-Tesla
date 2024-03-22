@@ -49,15 +49,11 @@ export const HeaderContainer = styled(HeaderContainerUnstyled)<{
 export const OptionsWrapper = styled.div`
   display: none;
 
-  @media ${props => props.theme.breakpoints.tablet} {
+  @media ${props => props.theme.breakpoints.laptop} {
     display: flex;
     align-items: center;
     justify-content: center;
 
     gap: 30px;
-  }
-
-  @media ${props => props.theme.breakpoints.laptop} {
-    gap: 50px;
   }
 `

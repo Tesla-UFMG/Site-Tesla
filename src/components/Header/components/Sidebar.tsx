@@ -29,7 +29,7 @@ const SidebarUnstyled = ({
 }
 
 export const Sidebar = styled(SidebarUnstyled)`
-  height: 100%;
+  height: 100vh;
   width: 0;
   transition: 0.5s;
 
@@ -70,5 +70,9 @@ export const Sidebar = styled(SidebarUnstyled)`
     &:hover {
       color: ${props => props.theme.colors.primary};
     }
+  }
+
+  @media ${props => props.theme.breakpoints.laptop} {
+    display: none;
   }
 `
