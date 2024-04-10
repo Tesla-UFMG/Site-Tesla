@@ -2496,5 +2496,443 @@ export const equipeProvider: {
         ]
       }
     ]
-  }
+  },
+2024: {
+  captain: {
+    name: 'Davi Clark',
+    imagePath: '',
+    linkedin: ''
+  },
+  sistemas: [
+    {
+      nome: 'ADMINISTRAÇÃO',
+      diretor: {
+        name: 'Matheo Mares',
+        role: 'Diretor Geral',
+        imagePath: '',
+        linkedin: 'https://www.linkedin.com/'
+      },
+      subsistemas: [
+        {
+          nome: 'Desenvolvimento',
+          members: [
+            {
+              name: 'Caio Lelis',
+              role: 'Diretor de Desenvolvimento',
+              imagePath: '',
+              linkedin: 'https://www.linkedin.com/'
+            },
+            {
+              name: 'Luiza Viana',
+              role: 'Desenvolvimento',
+              imagePath: '',
+              linkedin: 'https://www.linkedin.com/'
+            },
+            {
+              name: 'Alan Augusto',
+              role: 'Desenvolvimento',
+              imagePath: '',
+              linkedin: 'https://www.linkedin.com/'
+            },
+            {
+              name: 'Gustavo Mattos',
+              role: 'Desenvolvimento',
+              imagePath: '',
+              linkedin: 'https://www.linkedin.com/'
+            }
+          ]
+        },
+        {
+          nome: 'Financeiro',
+          members: [
+            {
+              name: 'Augusto Campos',
+              role: 'Diretor de Financeiro',
+              imagePath: 'image-24.jpg',
+              linkedin: 'https://www.linkedin.com/'
+            },
+            {
+              name: 'Leonardo Carvalho',
+              role: 'Financeiro',
+              imagePath: '',
+              linkedin: 'https://www.linkedin.com/'
+            },
+            {
+              name: 'Luíza Bernardo',
+              role: 'Financeiro',
+              imagePath: '',
+              linkedin: 'https://www.linkedin.com/'
+            }
+          ]
+        },
+        {
+          nome: 'Gestão de Pessoas',
+          members: [
+            {
+              name: 'Petra Luz',
+              role: 'Diretora de Gestão de Pessoas',
+              imagePath: '',
+              linkedin: 'https://www.linkedin.com/'
+            },
+            {
+              name: 'Isabela Coelho',
+              role: 'Gestão de Pessoas',
+              imagePath: '',
+              linkedin: 'https://www.linkedin.com/'
+            },
+            {
+              name: 'José Fernando Silva',
+              role: 'Gestão de Pessoas',
+              imagePath: '',
+              linkedin: 'https://www.linkedin.com/'
+            },
+            {
+              name: 'Lavínia Sousa',
+              role: 'Gestão de Pessoas',
+              imagePath: '',
+              linkedin: 'https://www.linkedin.com/'
+            },
+            {
+              name: 'Lyandra Souto',
+              role: 'Gestão de Pessoas',
+              imagePath: '',
+              linkedin: 'https://www.linkedin.com/'
+            }
+          ]
+        },
+        {
+          nome: 'Design',
+          members: [
+            {
+              name: 'Roger Lafetá',
+              role: 'Design',
+              imagePath: '',
+              linkedin: 'https://www.linkedin.com/'
+            },
+            {
+              name: 'Nathalielle Lopes',
+              role: 'Design',
+              imagePath: '',
+              linkedin: 'https://www.linkedin.com/'
+            }
+          ]
+        }
+      ]
+    },
+    {
+      nome: 'ELETRÔNICA',
+      diretor: {
+        name: 'Lucas Silveira',
+        role: 'Diretor Geral',
+        imagePath: '',
+        linkedin: 'https://www.linkedin.com/'
+      },
+      subsistemas: [
+        {
+          nome: 'Sistema Trativo',
+          members: [
+            {
+              name: 'Vitor Lobão',
+              role: 'Diretor de Sistema Trativo',
+              imagePath: '',
+              linkedin: 'https://www.linkedin.com/'
+            },
+            {
+              name: 'Antônio Temponi',
+              role: 'Sistema Trativo',
+              imagePath: 'image-09.jpg',
+              linkedin: 'https://www.linkedin.com/'
+            },
+            {
+              name: 'Davi Clark',
+              role: 'Sistema Trativo',
+              imagePath: '',
+              linkedin: 'https://www.linkedin.com/'
+            },
+            {
+              name: 'Guilherme Camargo',
+              role: 'Sistema Trativo',
+              imagePath: 'image-13.jpg',
+              linkedin: 'https://www.linkedin.com/'
+            },
+            {
+              name: 'Lucas Vasconcelos',
+              role: 'Sistema Trativo',
+              imagePath: '',
+              linkedin: 'https://www.linkedin.com/'
+            },
+            {
+              name: 'Ronaldo Araújo',
+              role: 'Sistema Trativo',
+              imagePath: '',
+              linkedin: 'https://www.linkedin.com/'
+            },
+            {
+              name: 'Arthur Roquete',
+              role: 'Sistema Trativo',
+              imagePath: 'image-28.jpg',
+              linkedin: 'https://www.linkedin.com/'
+            },
+            {
+              name: 'Gabriel Cruzati',
+              role: 'Sistema Trativo',
+              imagePath: '',
+              linkedin: 'https://www.linkedin.com/'
+            }
+          ]
+        },
+        {
+          nome: 'Aquisição de Dados',
+          members: [
+            {
+              name: 'Guilherme Barbosa',
+              role: 'Diretor de Aquisição de Dados',
+              imagePath: 'image-26.jpg',
+              linkedin: 'https://www.linkedin.com/'
+            },
+            {
+              name: 'David Protil',
+              role: 'Aquisição de Dados',
+              imagePath: 'image-29.jpg',
+              linkedin: 'https://www.linkedin.com/'
+            },
+            {
+              name: 'Gabriel Almeida',
+              role: 'Aquisição de Dados',
+              imagePath: 'image-33.jpg',
+              linkedin: 'https://www.linkedin.com/'
+            },
+            {
+              name: 'Leonardo Fernandes',
+              role: 'Aquisição de Dados',
+              imagePath: 'image-12.jpg',
+              linkedin: 'https://www.linkedin.com/'
+            }
+          ]
+        },
+        {
+          nome: 'Sistema de Segurança',
+          members: [
+            {
+              name: 'Haroldo Antunes',
+              role: 'Diretor de Sistema de Segurança',
+              imagePath: '',
+              linkedin: 'https://www.linkedin.com/'
+            },
+            {
+              name: 'Alan Franklin',
+              role: 'Sistema de Segurança',
+              imagePath: 'image-21.jpg',
+              linkedin: 'https://www.linkedin.com/'
+            },
+            {
+              name: 'Maria Luisa',
+              role: 'Sistema de Segurança',
+              imagePath: 'image-23.jpg',
+              linkedin: 'https://www.linkedin.com/'
+            },
+            {
+              name: 'Arthur Vaz',
+              role: 'Sistema de Segurança',
+              imagePath: 'image-34.jpg',
+              linkedin: 'https://www.linkedin.com/'
+            },
+            {
+              name: 'Clara Temponi',
+              role: 'Sistema de Segurança',
+              imagePath: '',
+              linkedin: 'https://www.linkedin.com/'
+            },
+            {
+              name: 'Gláucia Figueiredo',
+              role: 'Sistema de Segurança',
+              imagePath: '',
+              linkedin: 'https://www.linkedin.com/'
+            }
+          ]
+        },
+        {
+          nome: 'Controle',
+          members: [
+            {
+              name: 'David Rohrs',
+              role: 'Diretor de Controle',
+              imagePath: '',
+              linkedin: 'https://www.linkedin.com/'
+            },
+            {
+              name: 'João Pedro Nunes',
+              role: 'Controle',
+              imagePath: '',
+              linkedin: 'https://www.linkedin.com/'
+            },
+            {
+              name: 'Tarcísio Carvalho',
+              role: 'Controle',
+              imagePath: 'image-19.jpg',
+              linkedin: 'https://www.linkedin.com/'
+            },
+            {
+              name: 'Samuel Faria',
+              role: 'Controle',
+              imagePath: '',
+              linkedin: 'https://www.linkedin.com/'
+            },
+            {
+              name: 'Caius Souza',
+              role: 'Controle',
+              imagePath: '',
+              linkedin: 'https://www.linkedin.com/'
+            },
+            {
+              name: 'Victória Machado',
+              role: 'Controle',
+              imagePath: '',
+              linkedin: 'https://www.linkedin.com/'
+            }
+          ]
+        }
+      ]
+    },
+    {
+      nome: 'MECÂNICA',
+      diretor: {
+        name: 'Renato Nicolato',
+        role: 'Diretor Geral',
+        imagePath: '',
+        linkedin: 'https://www.linkedin.com/'
+      },
+      subsistemas: [
+        {
+          nome: 'Aerodinâmica',
+          members: [
+            {
+              name: 'Marília Fagundes',
+              role: 'Diretora de Aerodinâmica',
+              imagePath: 'image-32.jpg',
+              linkedin: 'https://www.linkedin.com/'
+            },
+            {
+              name: 'Luísa Vilela',
+              role: 'Membro',
+              imagePath: '',
+              linkedin: 'https://www.linkedin.com/'
+            },
+            {
+              name: 'Júlia Viegas',
+              role: 'Membro',
+              imagePath: 'image-15.jpg',
+              linkedin: 'https://www.linkedin.com/'
+            },
+            {
+              name: 'Lucas Telles',
+              role: 'Membro',
+              imagePath: '',
+              linkedin: 'https://www.linkedin.com/'
+            }
+          ]
+        },
+        {
+          nome: 'Estruturas',
+          members: [
+            {
+              name: 'Raphael Alves',
+              role: 'Diretor de Estruturas',
+              imagePath: '',
+              linkedin: 'https://www.linkedin.com/'
+            },
+            {
+              name: 'Ana Beatriz Strube',
+              role: 'Estruturas',
+              imagePath: 'image-14.jpg',
+              linkedin: 'https://www.linkedin.com/'
+            },
+            {
+              name: 'Gabriel Rocha',
+              role: 'Estruturas',
+              imagePath: 'image-42.jpg',
+              linkedin: 'https://www.linkedin.com/'
+            },
+            {
+              name: 'João Roque',
+              role: 'Estruturas',
+              imagePath: '',
+              linkedin: 'https://www.linkedin.com/'
+            }
+          ]
+        },
+        {
+          nome: 'Transmissão',
+          members: [
+            {
+              name: 'Hannah Andrade',
+              role: 'Diretora de Transmissão',
+              imagePath: '',
+              linkedin: 'https://www.linkedin.com/'
+            },
+            {
+              name: 'Ana Luiza Pereira',
+              role: 'Transmissão',
+              imagePath: 'image-16.jpg',
+              linkedin: 'https://www.linkedin.com/'
+            },
+            {
+              name: 'Rodrigo Reis',
+              role: 'Transmissão',
+              imagePath: 'image-18.jpg',
+              linkedin: 'https://www.linkedin.com/'
+            }
+          ]
+        },
+        {
+          nome: 'Dinâmica',
+          members: [
+            {
+              name: 'Anna Júlia Maciel',
+              role: 'Diretora de Dinâmica',
+              imagePath: '',
+              linkedin: 'https://www.linkedin.com/'
+            },
+            {
+              name: 'Luiza Gonçalves',
+              role: 'Freios',
+              imagePath: '',
+              linkedin: 'https://www.linkedin.com/'
+            },
+            {
+              name: 'Arthur Lira',
+              role: 'Freios',
+              imagePath: '',
+              linkedin: 'https://www.linkedin.com/'
+            },
+            {
+              name: 'Lucas Araujo',
+              role: 'Direção',
+              imagePath: 'image-41.jpg',
+              linkedin: 'https://www.linkedin.com/'
+            },
+            {
+              name: 'Gabriel Amaro',
+              role: 'Direção',
+              imagePath: 'image-37.jpg',
+              linkedin: 'https://www.linkedin.com/'
+            },
+            {
+              name: 'Arthur Librelon',
+              role: 'Suspensão',
+              imagePath: 'image-10.jpg',
+              linkedin: 'https://www.linkedin.com/'
+            },
+            {
+              name: 'Lucca Andrade',
+              role: 'Suspensão',
+              imagePath: 'image-20.jpg',
+              linkedin: 'https://www.linkedin.com/'
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
 }

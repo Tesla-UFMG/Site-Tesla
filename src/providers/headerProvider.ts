@@ -25,6 +25,7 @@ export const headerOptionsProvider: Array<{
     label: 'Equipe',
     to: '/equipe/2023',
     options: [
+      { label: '2024', to: '/equipe/2024' },
       { label: '2023', to: '/equipe/2023' },
       { label: '2022', to: '/equipe/2022' },
       { label: '2021', to: '/equipe/2021' },

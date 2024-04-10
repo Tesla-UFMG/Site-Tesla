@@ -25,10 +25,11 @@ import {
   VideoWrapper
 } from '../../styles/pages/Equipe'
 
-type Years = '2023' | '2022' | '2021' | '2020' | '2019' | '2018' | '2017'
+type Years = '2024' | '2023' | '2022' | '2021' | '2020' | '2019' | '2018' | '2017'
 
 export async function getStaticPaths() {
   const paths = [
+    { params: { year: '2024' } },
     { params: { year: '2023' } },
     { params: { year: '2022' } },
     { params: { year: '2021' } },
@@ -79,7 +80,7 @@ const EquipeAno: React.FC = () => {
   const numberOfSystems = team.sistemas.length
 
   useEffect(() => {
-    if (year === '2017' || year === '2023') {
+    if (year === '2017' || year === '2024') {
       handleColor('black')
     } else {
       toggleColor()

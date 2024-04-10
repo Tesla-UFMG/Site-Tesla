@@ -2,7 +2,6 @@ import { useEffect } from 'react'
 import Head from 'next/head'
 
 import { useHeaderContext } from '../contexts/HeaderContext'
-
 import { Footer } from '../components/Footer'
 import {
   Container,
@@ -57,7 +56,8 @@ const Parceiros: React.FC = () => {
             </div>
           </SectionContent>
         </Section>
-
+        
+              
         <Footer />
       </Container>
     </>
