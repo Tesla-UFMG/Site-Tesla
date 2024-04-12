@@ -70,7 +70,6 @@ const Prototipos: React.FC = () => {
                 layout="fill"
               />
               <CarDescription>{years[yearIndex].description}</CarDescription>
-              <FABInfo title={curiosidades[0].title} text={curiosidades[0].text} description={curiosidades[0].description}></FABInfo>
             </CarWrapper>
             <BoxDataWrapper>
               <BoxData
