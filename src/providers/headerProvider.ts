@@ -36,6 +36,15 @@ export const headerOptionsProvider: Array<{
     ]
   },
   { label: 'Parceiros', to: '/parceiros' },
+  {
+    label: 'Outros',
+    to: '/',
+    options: [
+      { label: 'Competição', to: '/competicao' },
+      { label: 'Galeria', to: '/galeria' },
+      { label: 'Rollouts', to: '/rollouts' }
+    ]
+  },
   { label: 'Contato', to: '/contato' }
 ]
 

@@ -96,7 +96,7 @@ const DropdownOption = styled(DropdownOptionUnstyled)`
   & .list {
     background-color: ${props => props.theme.colors.white};
 
-    width: 100%;
+    width: 120%;
 
     position: absolute;
     display: none;
