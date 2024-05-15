@@ -518,8 +518,9 @@ export const historiaProvider: HistoriaProviderInterface = [
         ]
       },
       {
-        type: 'video',
-        videoURL: 'https://www.youtube.com/embed/-MkqLh-w-Ew'
+        type: 'image',
+        imagePath: '2023/2023_1.jpeg.jpeg',
+        legend: 'Equipe na Competição 2023'
       },
       {
         type: 'frase',
@@ -535,8 +536,8 @@ export const historiaProvider: HistoriaProviderInterface = [
       },
       {
         type: 'image',
-        imagePath: '2019/prova-design.jpg',
-        legend: 'Prova de Design (projeto)'
+        imagePath: '2023/2023_02.jpeg.jpeg',
+        legend: ''
       },
       {
         type: 'text',

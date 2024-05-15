@@ -1796,7 +1796,7 @@ export const equipeProvider: {
               {
                 name: 'Matheo Mares',
                 role: 'Recursos',
-                imagePath: '',
+                imagePath: 'image-25.jpg',
                 linkedin: 'https://www.linkedin.com/'
               },
               {
@@ -1934,7 +1934,7 @@ export const equipeProvider: {
               {
                 name: 'João Pedro Nunes',
                 role: 'Controle',
-                imagePath: '',
+                imagePath: 'DSCN3153-01.jpeg',
                 linkedin: 'https://www.linkedin.com/'
               },
               {
@@ -2049,7 +2049,7 @@ export const equipeProvider: {
               {
                 name: 'Renato Nicolato',
                 role: 'Transmissão',
-                imagePath: '',
+                imagePath: 'DSCN3061-01.jpeg',
                 linkedin: 'https://www.linkedin.com/'
               }
             ]
@@ -2071,7 +2071,7 @@ export const equipeProvider: {
         diretor: {
           name: 'Matheo Mares',
           role: 'Diretor Geral',
-          imagePath: '',
+          imagePath: 'image-25.jpg',
           linkedin: 'https://www.linkedin.com/'
         },
         subsistemas: [
@@ -2186,7 +2186,7 @@ export const equipeProvider: {
         diretor: {
           name: 'Lucas Silveira',
           role: 'Diretor Geral',
-          imagePath: '',
+          imagePath: 'image-11.jpg',
           linkedin: 'https://www.linkedin.com/'
         },
         subsistemas: [
@@ -2220,7 +2220,7 @@ export const equipeProvider: {
               {
                 name: 'Lucas Vasconcelos',
                 role: 'Sistema Trativo',
-                imagePath: '',
+                imagePath: 'image-31.jpg',
                 linkedin: 'https://www.linkedin.com/'
               },
               {
@@ -2349,7 +2349,7 @@ export const equipeProvider: {
               {
                 name: 'Victória Machado',
                 role: 'Controle',
-                imagePath: '',
+                imagePath: 'image-35.jpg',
                 linkedin: 'https://www.linkedin.com/'
               }
             ]
@@ -2418,7 +2418,7 @@ export const equipeProvider: {
               {
                 name: 'João Roque',
                 role: 'Estruturas',
-                imagePath: '',
+                imagePath: 'DSCN3135-01.jpeg',
                 linkedin: 'https://www.linkedin.com/'
               }
             ]
