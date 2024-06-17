@@ -510,11 +510,11 @@ export const historiaProvider: HistoriaProviderInterface = [
         year: '2023',
         captain: 'Eduardo Fujii',
         positions: [
-          { position: 1, category: 'projeto' },
-          { position: 1, category: 'custos' },
-          { position: 1, category: 'geral' },
-          { position: 1, category: 'enduro' },
-          { position: 1, category: 'autocross' }
+        //{ position: 1, category: 'projeto' },
+          { position: 4, category: 'custos' },
+          { position: 3, category: 'geral' },
+          { position: 2, category: 'enduro' },
+        //{ position: 1, category: 'autocross' }
         ]
       },
       {
@@ -524,63 +524,63 @@ export const historiaProvider: HistoriaProviderInterface = [
       },
       {
         type: 'frase',
-        text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
+        text: ''
       },
       {
         type: 'text',
-        text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
+        text: 'A equipe ficou em 3° lugar 19a FSAE BRASIL na categoria elétrico!! Além disso, conseguimos o 2° lugar do Enduro, o 3° lugar na Prova de Design e o 3° melhor projeto de Powertrain pela FEV. O Tesla agradece a todos que apoiaram e tiveram por nós nessa competição!! Que venha a próxima temporada! GO TESLA!!'
       },
       {
         type: 'text',
-        text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum..'
+        //text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum..'
       },
       {
         type: 'image',
-        imagePath: '2023/2023_02.jpeg.jpeg',
+        imagePath: '2023/2023_04.jpg',
         legend: ''
       },
       {
         type: 'text',
-        text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
+        text: 'A equipe foi no Instituto do piloto de Fórmula-E, Sérgio Sette Câmara, e tivemos o privilégio de tê-lo pilotando o NK420. O Instituto oferece um automobilismo aliado à educação, em que várias crianças podem ter a oportunidade de se formarem como jovens pilotos no Kart. Foi muito enriquecedor para a equipe esse contato, poder ver as crianças se interessando pelo projeto, além de ter sido o momento em que nosso carro foi testado em uma pista de Kart pela primeira vez, nas mãos de um piloto profissional!'
       },
       {
         type: 'text',
-        text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum..'
+      //text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum..'
       },
       {
         type: 'image',
-        imagePath: '2019/boxes.jpg',
-        legend: 'Equipe nos boxes da competição'
+        imagePath: '2023/2023_03.jpeg.jpeg',
+        legend: 'Equipe o primeiro dia da competição'
       },
-      {
+      /*{
         type: 'text',
-        text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
+        text: ''
       },
       {
         type: 'image',
-        imagePath: '2019/autocross.jpg',
-        legend: 'Prova de Autocross'
+        imagePath: '',
+        legend: ''
       },
       {
         type: 'text',
-        text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
+        text: ''
       },
       {
         type: 'text',
-        text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
+        text: ''
       },
       {
         type: 'text',
-        text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum....'
+        text: ''
       },
       {
         type: 'image',
-        imagePath: '2019/equipe-2019.jpg',
-        legend: 'Equipe 2023'
-      }
+        imagePath: '',
+        legend: ''
+      }*/
     ]
   },
-  {
+  /*{
     id: 'content-2024',
     content: [
       {
@@ -656,5 +656,5 @@ export const historiaProvider: HistoriaProviderInterface = [
         legend: 'Equipe 2022'
       }
     ]
-  }
+  }*/
 ]
