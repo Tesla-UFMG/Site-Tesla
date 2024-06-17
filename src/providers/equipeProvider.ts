@@ -2081,25 +2081,25 @@ export const equipeProvider: {
               {
                 name: 'Caio Lelis',
                 role: 'Diretor de Desenvolvimento',
-                imagePath: '',
+                imagePath: 'image-59.jpg',
                 linkedin: 'https://www.linkedin.com/'
               },
               {
                 name: 'Luiza Viana',
                 role: 'Desenvolvimento',
-                imagePath: '',
+                imagePath: 'image-60.jpg',
                 linkedin: 'https://www.linkedin.com/'
               },
               {
                 name: 'Alan Augusto',
                 role: 'Desenvolvimento',
-                imagePath: '',
+                imagePath: 'image-61.jpg',
                 linkedin: 'https://www.linkedin.com/'
               },
               {
                 name: 'Gustavo Mattos',
                 role: 'Desenvolvimento',
-                imagePath: '',
+                imagePath: 'image-62.jpg',
                 linkedin: 'https://www.linkedin.com/'
               }
             ]
@@ -2116,7 +2116,7 @@ export const equipeProvider: {
               {
                 name: 'Leonardo Carvalho',
                 role: 'Financeiro',
-                imagePath: '',
+                imagePath: 'image-58.jpg',
                 linkedin: 'https://www.linkedin.com/'
               },
               {
@@ -2133,7 +2133,7 @@ export const equipeProvider: {
               {
                 name: 'Petra Luz',
                 role: 'Diretora de Gestão de Pessoas',
-                imagePath: '',
+                imagePath: 'image-63.jpg',
                 linkedin: 'https://www.linkedin.com/'
               },
               {
@@ -2151,7 +2151,7 @@ export const equipeProvider: {
               {
                 name: 'Lavínia Sousa',
                 role: 'Gestão de Pessoas',
-                imagePath: '',
+                imagePath: 'image-64.jpg',
                 linkedin: 'https://www.linkedin.com/'
               },
               {
@@ -2168,7 +2168,7 @@ export const equipeProvider: {
               {
                 name: 'Roger Lafetá',
                 role: 'Design',
-                imagePath: '',
+                imagePath: 'image-65.jpg',
                 linkedin: 'https://www.linkedin.com/'
               },
               {
@@ -2196,7 +2196,7 @@ export const equipeProvider: {
               {
                 name: 'Vitor Lobão',
                 role: 'Diretor de Sistema Trativo',
-                imagePath: '',
+                imagePath: 'image-56.jpg',
                 linkedin: 'https://www.linkedin.com/'
               },
               {
@@ -2208,7 +2208,7 @@ export const equipeProvider: {
               {
                 name: 'Davi Clark',
                 role: 'Sistema Trativo',
-                imagePath: '',
+                imagePath: 'image-57.jpg',
                 linkedin: 'https://www.linkedin.com/'
               },
               {
@@ -2238,7 +2238,7 @@ export const equipeProvider: {
               {
                 name: 'Gabriel Cruzati',
                 role: 'Sistema Trativo',
-                imagePath: '',
+                imagePath: 'image-55.jpg',
                 linkedin: 'https://www.linkedin.com/'
               }
             ]
@@ -2278,7 +2278,7 @@ export const equipeProvider: {
               {
                 name: 'Haroldo Antunes',
                 role: 'Diretor de Sistema de Segurança',
-                imagePath: '',
+                imagePath: 'image-55.jpg',
                 linkedin: 'https://www.linkedin.com/'
               },
               {
@@ -2302,13 +2302,13 @@ export const equipeProvider: {
               {
                 name: 'Clara Temponi',
                 role: 'Sistema de Segurança',
-                imagePath: '',
+                imagePath: 'image-54.jpg',
                 linkedin: 'https://www.linkedin.com/'
               },
               {
                 name: 'Gláucia Figueiredo',
                 role: 'Sistema de Segurança',
-                imagePath: '',
+                imagePath: 'image-53.jpg',
                 linkedin: 'https://www.linkedin.com/'
               }
             ]
@@ -2319,13 +2319,13 @@ export const equipeProvider: {
               {
                 name: 'David Rohrs',
                 role: 'Diretor de Controle',
-                imagePath: '',
+                imagePath: 'image-51.jpg',
                 linkedin: 'https://www.linkedin.com/'
               },
               {
                 name: 'João Pedro Nunes',
                 role: 'Controle',
-                imagePath: '',
+                imagePath: 'image-52.jpg',
                 linkedin: 'https://www.linkedin.com/'
               },
               {
@@ -2361,7 +2361,7 @@ export const equipeProvider: {
         diretor: {
           name: 'Renato Nicolato',
           role: 'Diretor Geral',
-          imagePath: '',
+          imagePath: 'image-50.jpg',
           linkedin: 'https://www.linkedin.com/'
         },
         subsistemas: [
@@ -2377,7 +2377,7 @@ export const equipeProvider: {
               {
                 name: 'Luísa Vilela',
                 role: 'Membro',
-                imagePath: '',
+                imagePath: 'image-48.jpg',
                 linkedin: 'https://www.linkedin.com/'
               },
               {
@@ -2389,7 +2389,7 @@ export const equipeProvider: {
               {
                 name: 'Lucas Telles',
                 role: 'Membro',
-                imagePath: '',
+                imagePath: 'image-49.jpg',
                 linkedin: 'https://www.linkedin.com/'
               }
             ]
@@ -2400,7 +2400,7 @@ export const equipeProvider: {
               {
                 name: 'Raphael Alves',
                 role: 'Diretor de Estruturas',
-                imagePath: '',
+                imagePath: 'image-47.jpg',
                 linkedin: 'https://www.linkedin.com/'
               },
               {
@@ -2429,7 +2429,7 @@ export const equipeProvider: {
               {
                 name: 'Hannah Andrade',
                 role: 'Diretora de Transmissão',
-                imagePath: '',
+                imagePath: 'image-46.jpg',
                 linkedin: 'https://www.linkedin.com/'
               },
               {
@@ -2452,19 +2452,19 @@ export const equipeProvider: {
               {
                 name: 'Anna Júlia Maciel',
                 role: 'Diretora de Dinâmica',
-                imagePath: '',
+                imagePath: 'image-45.jpg',
                 linkedin: 'https://www.linkedin.com/'
               },
               {
                 name: 'Luiza Gonçalves',
                 role: 'Freios',
-                imagePath: '',
+                imagePath: 'image-44.jpg',
                 linkedin: 'https://www.linkedin.com/'
               },
               {
                 name: 'Arthur Lira',
                 role: 'Freios',
-                imagePath: '',
+                imagePath: 'DSCN3555.jpg',
                 linkedin: 'https://www.linkedin.com/'
               },
               {
