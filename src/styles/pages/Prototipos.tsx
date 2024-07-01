@@ -13,7 +13,7 @@ export const Container = styled.div`
 export const Section = styled.section<{
   withBackground?: boolean
   black?: boolean
-  car?: 'NK422' | 'NK319' | 'NK218' | 'Kayran'
+  car?: 'NK624' | 'NK523' | 'NK422' | 'NK420' | 'NK319' | 'NK218' | 'Kayran'
 }>`
   min-height: 100%;
 
